@@ -1,0 +1,81 @@
+-- The C compiler identification is GNU 10.5.0
+-- The CXX compiler identification is GNU 10.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shdh/enpm663_ws/build/ariac_moveit_config
+[35m[1mScanning dependencies of target ament_cmake_python_copy_ariac_moveit_config[0m
+Built target ament_cmake_python_copy_ariac_moveit_config
+[35m[1mScanning dependencies of target ament_cmake_python_build_ariac_moveit_config_scripts[0m
+[35m[1mScanning dependencies of target ament_cmake_python_build_ariac_moveit_config_egg[0m
+running install_scripts
+running egg_info
+creating ariac_moveit_config.egg-info
+writing ariac_moveit_config.egg-info/PKG-INFO
+writing dependency_links to ariac_moveit_config.egg-info/dependency_links.txt
+writing top-level names to ariac_moveit_config.egg-info/top_level.txt
+writing manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+running egg_info
+writing ariac_moveit_config.egg-info/PKG-INFO
+writing dependency_links to ariac_moveit_config.egg-info/dependency_links.txt
+writing top-level names to ariac_moveit_config.egg-info/top_level.txt
+reading manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+reading manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ariac_moveit_config_scripts
+Built target ament_cmake_python_build_ariac_moveit_config_egg
+-- Install configuration: ""
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/config
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/controllers.yaml
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/ompl_planning.yaml
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/kinematics.yaml
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/launch
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/launch/ariac_robots_moveit.launch.py
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/srdf
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/srdf/ariac_robots.srdf
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/rviz
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/rviz/moveit.rviz
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/pythonpath.sh
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/pythonpath.dsv
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info/PKG-INFO
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info/top_level.txt
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info/SOURCES.txt
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info/dependency_links.txt
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/ariac_moveit_config/
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config/__init__.py
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config/parameters.py
+Listing '/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config'...
+Compiling '/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config/__init__.py'...
+Compiling '/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config/parameters.py'...
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ament_index/resource_index/package_run_dependencies/ariac_moveit_config
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ament_index/resource_index/parent_prefix_path/ariac_moveit_config
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/ament_prefix_path.sh
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/ament_prefix_path.dsv
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/path.sh
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/path.dsv
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.bash
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.sh
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.zsh
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.dsv
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.dsv
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ament_index/resource_index/packages/ariac_moveit_config
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/cmake/ariac_moveit_configConfig.cmake
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/cmake/ariac_moveit_configConfig-version.cmake
+-- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.xml

@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+ariac_human/__init__.py
+ariac_human/human_control.py
+ariac_human.egg-info/PKG-INFO
+ariac_human.egg-info/SOURCES.txt
+ariac_human.egg-info/dependency_links.txt
+ariac_human.egg-info/top_level.txt

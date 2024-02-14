@@ -1,0 +1,3 @@
+source;share/ariac_human/environment/ament_prefix_path.sh
+source;share/ariac_human/environment/path.sh
+source;share/ariac_human/environment/pythonpath.sh

@@ -1,0 +1,4 @@
+[console_scripts]
+gui = ariac_gui.gui_node:main
+zeid_gui = ariac_gui.zeid_ariac_gui:main
+

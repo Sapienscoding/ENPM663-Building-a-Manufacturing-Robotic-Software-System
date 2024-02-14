@@ -1,0 +1,6 @@
+Invoking command in '/home/shdh/enpm663_ws/build/ariac_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_description -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_description
+Invoked command in '/home/shdh/enpm663_ws/build/ariac_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_description -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_description
+Invoking command in '/home/shdh/enpm663_ws/build/ariac_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_description -- -j12 -l12
+Invoked command in '/home/shdh/enpm663_ws/build/ariac_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_description -- -j12 -l12
+Invoking command in '/home/shdh/enpm663_ws/build/ariac_description': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_description
+Invoked command in '/home/shdh/enpm663_ws/build/ariac_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_description

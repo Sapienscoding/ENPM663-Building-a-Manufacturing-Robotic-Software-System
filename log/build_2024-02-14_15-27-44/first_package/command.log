@@ -1,0 +1,6 @@
+Invoking command in '/home/shdh/enpm663_ws/build/first_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/enpm663_spring2024/first_package -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/first_package
+Invoked command in '/home/shdh/enpm663_ws/build/first_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/enpm663_spring2024/first_package -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/first_package
+Invoking command in '/home/shdh/enpm663_ws/build/first_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/first_package -- -j12 -l12
+Invoked command in '/home/shdh/enpm663_ws/build/first_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/first_package -- -j12 -l12
+Invoking command in '/home/shdh/enpm663_ws/build/first_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/first_package
+Invoked command in '/home/shdh/enpm663_ws/build/first_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/first_package
