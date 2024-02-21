@@ -1,0 +1,220 @@
+[2.246s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_plugins': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_plugins -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_plugins
+[2.303s] -- The C compiler identification is GNU 10.5.0
+[2.365s] -- The CXX compiler identification is GNU 10.5.0
+[2.372s] -- Check for working C compiler: /usr/bin/cc
+[2.450s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.451s] -- Detecting C compiler ABI info
+[2.539s] -- Detecting C compiler ABI info - done
+[2.554s] -- Detecting C compile features
+[2.554s] -- Detecting C compile features - done
+[2.557s] -- Check for working CXX compiler: /usr/bin/c++
+[2.658s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.660s] -- Detecting CXX compiler ABI info
+[2.778s] -- Detecting CXX compiler ABI info - done
+[2.795s] -- Detecting CXX compile features
+[2.795s] -- Detecting CXX compile features - done
+[2.800s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.839s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.839s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.000s] -- Found gazebo_msgs: 3.5.2 (/opt/ros/galactic/share/gazebo_msgs/cmake)
+[3.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.067s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.219s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.273s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.902s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[4.005s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[4.010s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[4.049s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.051s] -- Looking for pthread.h
+[4.150s] -- Looking for pthread.h - found
+[4.150s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.248s] -- Looking for pthread_create in pthreads
+[4.326s] -- Looking for pthread_create in pthreads - not found
+[4.326s] -- Looking for pthread_create in pthread
+[4.418s] -- Looking for pthread_create in pthread - found
+[4.420s] -- Found Threads: TRUE  
+[4.622s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[4.623s] -- Checking for module 'bullet>=2.82'
+[4.645s] --   Found bullet, version 2.88
+[4.817s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[4.906s] -- Found fcl: /usr/include (found suitable version "0.6.1", minimum required is "0.3.2") 
+[4.988s] -- Found assimp: /usr/include (found version "5.0.0") 
+[5.018s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.057s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.080s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[5.088s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.096s] -- Searching for dependencies of ignition-math6
+[5.099s] -- Looking for OGRE...
+[5.099s] -- OGRE_PREFIX_WATCH changed.
+[5.105s] -- Checking for module 'OGRE'
+[5.126s] --   Found OGRE, version 1.9.0
+[5.182s] -- Found Ogre Ghadamon (1.9.0)
+[5.194s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.206s] -- Looking for OGRE_Paging...
+[5.216s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.216s] -- Looking for OGRE_Terrain...
+[5.225s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.225s] -- Looking for OGRE_Property...
+[5.234s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.234s] -- Looking for OGRE_RTShaderSystem...
+[5.244s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.244s] -- Looking for OGRE_Volume...
+[5.253s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.253s] -- Looking for OGRE_Overlay...
+[5.261s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.469s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.472s] -- Looking for ignition-transport8 -- found version 8.3.0
+[5.473s] -- Searching for dependencies of ignition-transport8
+[5.498s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[5.515s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.521s] -- Checking for module 'libzmq >= 4'
+[5.544s] --   Found libzmq , version 4.3.2
+[5.600s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.607s] -- Checking for module 'uuid'
+[5.628s] --   Found uuid, version 2.34.0
+[5.684s] -- Found UUID: TRUE  
+[5.687s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.688s] -- Searching for dependencies of ignition-msgs5
+[5.715s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.721s] -- Checking for module 'tinyxml2'
+[5.743s] --   Found tinyxml2, version 6.2.0
+[5.801s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.805s] -- Looking for ignition-common3 -- found version 3.14.2
+[5.806s] -- Searching for dependencies of ignition-common3
+[5.806s] -- Looking for dlfcn.h - found
+[5.808s] -- Looking for libdl - found
+[5.810s] -- Found DL: TRUE  
+[5.822s] -- Searching for <ignition-common3> component [graphics]
+[5.826s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[5.826s] -- Searching for dependencies of ignition-common3-graphics
+[5.827s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.832s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[5.833s] -- Searching for dependencies of ignition-fuel_tools4
+[5.944s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[5.956s] -- Checking for module 'jsoncpp'
+[5.983s] --   Found jsoncpp, version 1.7.4
+[6.039s] -- Found JSONCPP: TRUE  
+[6.046s] -- Checking for module 'libzip'
+[6.068s] --   Found libzip, version 1.5.1
+[6.129s] -- Found ZIP: TRUE  
+[6.130s] -- Looking for ignition-common3 -- found version 3.14.2
+[6.131s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.132s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[6.134s] -- Gazebo version: 11.11
+[6.146s] -- Found ariac_msgs: 0.0.0 (/home/shdh/enpm663_ws/install/ariac_msgs/share/ariac_msgs/cmake)
+[6.251s] -- Found controller_manager_msgs: 1.6.0 (/opt/ros/galactic/share/controller_manager_msgs/cmake)
+[6.279s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[6.376s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[6.394s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[6.407s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[6.409s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[7.300s] -- Configuring done
+[7.655s] -- Generating done
+[7.659s] -- Build files have been written to: /home/shdh/enpm663_ws/build/ariac_plugins
+[7.674s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_plugins' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_plugins -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_plugins
+[7.679s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_plugins': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_plugins -- -j12 -l12
+[7.739s] [35m[1mScanning dependencies of target ObjectDisposalPlugin[0m
+[7.739s] [35m[1mScanning dependencies of target VacuumGripperPlugin[0m
+[7.739s] [35m[1mScanning dependencies of target agv_plugin[0m
+[7.739s] [35m[1mScanning dependencies of target assembly_lock_plugin[0m
+[7.740s] [35m[1mScanning dependencies of target conveyor_belt_plugin[0m
+[7.740s] [35m[1mScanning dependencies of target GripperColorPlugin[0m
+[7.744s] [35m[1mScanning dependencies of target disable_shadows_plugin[0m
+[7.745s] [35m[1mScanning dependencies of target assembly_state_publisher[0m
+[7.746s] [35m[1mScanning dependencies of target TaskManagerPlugin[0m
+[7.755s] [35m[1mScanning dependencies of target AGVTrayPlugin[0m
+[7.758s] [35m[1mScanning dependencies of target HumanTeleportPlugin[0m
+[8.228s] [  4%] [32mBuilding CXX object CMakeFiles/ObjectDisposalPlugin.dir/src/object_disposal_plugin.cpp.o[0m
+[8.251s] [  9%] [32mBuilding CXX object CMakeFiles/agv_plugin.dir/src/agv_plugin.cpp.o[0m
+[8.318s] [ 13%] [32mBuilding CXX object CMakeFiles/conveyor_belt_plugin.dir/src/conveyor_belt_plugin.cpp.o[0m
+[8.318s] [ 18%] [32mBuilding CXX object CMakeFiles/assembly_state_publisher.dir/src/assembly_state_publisher.cpp.o[0m
+[8.320s] [ 22%] [32mBuilding CXX object CMakeFiles/HumanTeleportPlugin.dir/src/human_teleport_plugin.cpp.o[0m
+[8.341s] [ 27%] [32mBuilding CXX object CMakeFiles/assembly_lock_plugin.dir/src/assembly_lock_plugin.cpp.o[0m
+[8.345s] [ 31%] [32mBuilding CXX object CMakeFiles/disable_shadows_plugin.dir/src/disable_shadows_plugin.cpp.o[0m
+[8.420s] [ 36%] [32mBuilding CXX object CMakeFiles/GripperColorPlugin.dir/src/gripper_color_plugin.cpp.o[0m
+[8.425s] [ 40%] [32mBuilding CXX object CMakeFiles/AGVTrayPlugin.dir/src/agv_tray_plugin.cpp.o[0m
+[8.460s] [ 45%] [32mBuilding CXX object CMakeFiles/VacuumGripperPlugin.dir/src/vacuum_gripper_plugin.cpp.o[0m
+[8.554s] [ 50%] [32mBuilding CXX object CMakeFiles/TaskManagerPlugin.dir/src/task_manager_plugin.cpp.o[0m
+[49.834s] [ 54%] [32m[1mLinking CXX shared library libdisable_shadows_plugin.so[0m
+[51.292s] [ 59%] [32m[1mLinking CXX shared library libassembly_lock_plugin.so[0m
+[51.478s] [ 59%] Built target disable_shadows_plugin
+[52.960s] [ 59%] Built target assembly_lock_plugin
+[53.246s] [ 63%] [32m[1mLinking CXX shared library libHumanTeleportPlugin.so[0m
+[54.745s] [ 63%] Built target HumanTeleportPlugin
+[55.303s] [ 68%] [32m[1mLinking CXX shared library libAGVTrayPlugin.so[0m
+[57.176s] [ 72%] [32m[1mLinking CXX shared library libagv_plugin.so[0m
+[57.547s] [ 77%] [32m[1mLinking CXX shared library libObjectDisposalPlugin.so[0m
+[57.558s] [ 77%] Built target AGVTrayPlugin
+[58.709s] [ 77%] Built target agv_plugin
+[59.159s] [ 77%] Built target ObjectDisposalPlugin
+[59.950s] [ 81%] [32m[1mLinking CXX shared library libassembly_state_publisher.so[0m
+[61.502s] [ 81%] Built target assembly_state_publisher
+[62.063s] [ 86%] [32m[1mLinking CXX shared library libGripperColorPlugin.so[0m
+[63.562s] [ 86%] Built target GripperColorPlugin
+[63.628s] [ 90%] [32m[1mLinking CXX shared library libconveyor_belt_plugin.so[0m
+[65.152s] [ 90%] Built target conveyor_belt_plugin
+[68.671s] [ 95%] [32m[1mLinking CXX shared library libVacuumGripperPlugin.so[0m
+[69.991s] [ 95%] Built target VacuumGripperPlugin
+[76.674s] [100%] [32m[1mLinking CXX shared library libTaskManagerPlugin.so[0m
+[78.136s] [100%] Built target TaskManagerPlugin
+[78.162s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_plugins' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_plugins -- -j12 -l12
+[78.215s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_plugins': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_plugins
+[78.223s] -- Install configuration: ""
+[78.223s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/library_path.sh
+[78.223s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/library_path.dsv
+[78.224s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ament_index/resource_index/package_run_dependencies/ariac_plugins
+[78.225s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ament_index/resource_index/parent_prefix_path/ariac_plugins
+[78.225s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/ament_prefix_path.sh
+[78.225s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/ament_prefix_path.dsv
+[78.225s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/path.sh
+[78.225s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/path.dsv
+[78.226s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/local_setup.bash
+[78.226s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/local_setup.sh
+[78.226s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/local_setup.zsh
+[78.227s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/local_setup.dsv
+[78.227s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/package.dsv
+[78.227s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ament_index/resource_index/packages/ariac_plugins
+[78.227s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[78.228s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/cmake/ariac_pluginsConfig.cmake
+[78.228s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/cmake/ariac_pluginsConfig-version.cmake
+[78.228s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/package.xml
+[78.228s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include
+[78.229s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins
+[78.229s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/human_teleport_plugin.hpp
+[78.229s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/disable_shadows_plugin.hpp
+[78.229s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/vacuum_gripper_plugin.hpp
+[78.229s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/agv_tray_plugin.hpp
+[78.229s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/object_disposal_plugin.hpp
+[78.230s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/ariac_plugin_template.hpp
+[78.230s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/task_manager_plugin.hpp
+[78.230s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/gripper_color_plugin.hpp
+[78.230s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/agv_plugin.hpp
+[78.230s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/ariac_common.hpp
+[78.231s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/assembly_lock_plugin.hpp
+[78.231s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/conveyor_belt_plugin.hpp
+[78.231s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/assembly_state_publisher.hpp
+[78.232s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libVacuumGripperPlugin.so
+[78.239s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libVacuumGripperPlugin.so" to ""
+[78.239s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libconveyor_belt_plugin.so
+[78.245s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libconveyor_belt_plugin.so" to ""
+[78.245s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libagv_plugin.so
+[78.249s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libagv_plugin.so" to ""
+[78.249s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libassembly_lock_plugin.so
+[78.251s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libassembly_lock_plugin.so" to ""
+[78.251s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libassembly_state_publisher.so
+[78.254s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libassembly_state_publisher.so" to ""
+[78.255s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libGripperColorPlugin.so
+[78.260s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libGripperColorPlugin.so" to ""
+[78.260s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libdisable_shadows_plugin.so
+[78.262s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libdisable_shadows_plugin.so" to ""
+[78.262s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libObjectDisposalPlugin.so
+[78.264s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libObjectDisposalPlugin.so" to ""
+[78.265s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libAGVTrayPlugin.so
+[78.267s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libAGVTrayPlugin.so" to ""
+[78.267s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libTaskManagerPlugin.so
+[78.280s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libTaskManagerPlugin.so" to ""
+[78.280s] -- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libHumanTeleportPlugin.so
+[78.282s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_plugins/lib/libHumanTeleportPlugin.so" to ""
+[78.284s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_plugins' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_plugins

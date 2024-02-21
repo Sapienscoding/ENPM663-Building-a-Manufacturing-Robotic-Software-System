@@ -1,6 +1,9 @@
 source;share/first_package/hook/cmake_prefix_path.ps1
 source;share/first_package/hook/cmake_prefix_path.dsv
 source;share/first_package/hook/cmake_prefix_path.sh
+source;share/first_package/hook/pythonpath.ps1
+source;share/first_package/hook/pythonpath.dsv
+source;share/first_package/hook/pythonpath.sh
 source;share/first_package/local_setup.bash
 source;share/first_package/local_setup.dsv
 source;share/first_package/local_setup.ps1

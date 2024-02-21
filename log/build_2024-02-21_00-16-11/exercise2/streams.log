@@ -1,0 +1,20 @@
+[5.577s] Invoking command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise2/prefix_override:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise2 build --build-base /home/shdh/enpm663_ws/build/exercise2/build install --record /home/shdh/enpm663_ws/build/exercise2/install.log --single-version-externally-managed
+[6.236s] running egg_info
+[6.240s] writing ../../../build/exercise2/exercise2.egg-info/PKG-INFO
+[6.241s] writing dependency_links to ../../../build/exercise2/exercise2.egg-info/dependency_links.txt
+[6.241s] writing entry points to ../../../build/exercise2/exercise2.egg-info/entry_points.txt
+[6.241s] writing requirements to ../../../build/exercise2/exercise2.egg-info/requires.txt
+[6.241s] writing top-level names to ../../../build/exercise2/exercise2.egg-info/top_level.txt
+[6.242s] reading manifest file '../../../build/exercise2/exercise2.egg-info/SOURCES.txt'
+[6.242s] writing manifest file '../../../build/exercise2/exercise2.egg-info/SOURCES.txt'
+[6.242s] running build
+[6.242s] running build_py
+[6.242s] running install
+[6.242s] running install_lib
+[6.242s] running install_data
+[6.242s] running install_egg_info
+[6.242s] removing '/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages/exercise2-0.0.0-py3.8.egg-info' (and everything under it)
+[6.242s] Copying ../../../build/exercise2/exercise2.egg-info to /home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages/exercise2-0.0.0-py3.8.egg-info
+[6.242s] running install_scripts
+[6.242s] writing list of installed files to '/home/shdh/enpm663_ws/build/exercise2/install.log'
+[6.716s] Invoked command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2' returned '0': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise2/prefix_override:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise2 build --build-base /home/shdh/enpm663_ws/build/exercise2/build install --record /home/shdh/enpm663_ws/build/exercise2/install.log --single-version-externally-managed

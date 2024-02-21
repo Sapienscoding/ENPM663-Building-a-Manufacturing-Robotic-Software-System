@@ -1,0 +1,116 @@
+[1.255s] Invoking command in '/home/shdh/enpm663_ws/build/test_competitor': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/test_competitor -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/test_competitor
+[1.314s] -- The C compiler identification is GNU 10.5.0
+[1.371s] -- The CXX compiler identification is GNU 10.5.0
+[1.377s] -- Check for working C compiler: /usr/bin/cc
+[1.455s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.456s] -- Detecting C compiler ABI info
+[1.538s] -- Detecting C compiler ABI info - done
+[1.553s] -- Detecting C compile features
+[1.554s] -- Detecting C compile features - done
+[1.557s] -- Check for working CXX compiler: /usr/bin/c++
+[1.657s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.659s] -- Detecting CXX compiler ABI info
+[1.776s] -- Detecting CXX compiler ABI info - done
+[1.803s] -- Detecting CXX compile features
+[1.804s] -- Detecting CXX compile features - done
+[1.809s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.850s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.850s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.984s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.082s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.240s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.289s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.524s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.529s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.559s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.560s] -- Looking for pthread.h
+[2.656s] -- Looking for pthread.h - found
+[2.657s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.759s] -- Looking for pthread_create in pthreads
+[2.833s] -- Looking for pthread_create in pthreads - not found
+[2.834s] -- Looking for pthread_create in pthread
+[2.930s] -- Looking for pthread_create in pthread - found
+[2.932s] -- Found Threads: TRUE  
+[3.202s] -- Found moveit_ros_planning_interface: 2.3.4 (/opt/ros/galactic/share/moveit_ros_planning_interface/cmake)
+[3.241s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[5.173s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[5.203s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[5.354s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[5.507s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.568s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[7.497s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[12.129s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[14.281s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[17.147s] -- Found ariac_msgs: 0.0.0 (/home/shdh/enpm663_ws/install/ariac_msgs/share/ariac_msgs/cmake)
+[17.801s] -- Configuring done
+[18.173s] -- Generating done
+[18.193s] -- Build files have been written to: /home/shdh/enpm663_ws/build/test_competitor
+[18.225s] Invoked command in '/home/shdh/enpm663_ws/build/test_competitor' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/test_competitor -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/test_competitor
+[18.227s] Invoking command in '/home/shdh/enpm663_ws/build/test_competitor': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/shdh/enpm663_ws/build/test_competitor -- -j12 -l12
+[18.519s] [35m[1mScanning dependencies of target test_competitor[0m
+[19.058s] [ 16%] [32mBuilding CXX object CMakeFiles/test_competitor.dir/src/test_competitor.cpp.o[0m
+[79.194s] [ 33%] [32m[1mLinking CXX shared library libtest_competitor.so[0m
+[80.542s] [ 33%] Built target test_competitor
+[80.566s] [35m[1mScanning dependencies of target moveit_test[0m
+[80.806s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_test.dir/src/moveit_test.cpp.o[0m
+[86.586s] [ 66%] [32m[1mLinking CXX executable moveit_test[0m
+[87.344s] [ 66%] Built target moveit_test
+[87.354s] [35m[1mScanning dependencies of target competitor[0m
+[87.442s] [ 83%] [32mBuilding CXX object CMakeFiles/competitor.dir/src/competitor.cpp.o[0m
+[93.213s] [100%] [32m[1mLinking CXX executable competitor[0m
+[93.962s] [100%] Built target competitor
+[93.973s] Invoked command in '/home/shdh/enpm663_ws/build/test_competitor' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/shdh/enpm663_ws/build/test_competitor -- -j12 -l12
+[94.001s] Invoking command in '/home/shdh/enpm663_ws/build/test_competitor': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/shdh/enpm663_ws/build/test_competitor
+[94.009s] -- Install configuration: ""
+[94.009s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/lib/test_competitor/competitor
+[94.009s] -- Set runtime path of "/home/shdh/enpm663_ws/install/test_competitor/lib/test_competitor/competitor" to ""
+[94.009s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/lib/test_competitor/moveit_test
+[94.010s] -- Set runtime path of "/home/shdh/enpm663_ws/install/test_competitor/lib/test_competitor/moveit_test" to ""
+[94.010s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/lib/libtest_competitor.so
+[94.025s] -- Set runtime path of "/home/shdh/enpm663_ws/install/test_competitor/lib/libtest_competitor.so" to ""
+[94.025s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/include
+[94.025s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/include/test_competitor
+[94.025s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/include/test_competitor/test_competitor.hpp
+[94.025s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/config
+[94.026s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/config/sample.yaml
+[94.026s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/config/sensors.yaml
+[94.026s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/launch
+[94.026s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/launch/competitor.launch.py
+[94.026s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/launch/moveit_test.launch.py
+[94.026s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes
+[94.026s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/kit_tray.stl
+[94.026s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/sensor.stl
+[94.027s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/regulator.stl
+[94.027s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/battery.stl
+[94.027s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/assembly_station.stl
+[94.027s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/pump.stl
+[94.028s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/bin.stl
+[94.028s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/conveyor.stl
+[94.028s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/assembly_insert.stl
+[94.029s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/kit_tray_table.stl
+[94.029s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/rviz
+[94.029s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/rviz/test_competitor.rviz
+[94.029s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/library_path.sh
+[94.030s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/library_path.dsv
+[94.030s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/ament_index/resource_index/package_run_dependencies/test_competitor
+[94.031s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/ament_index/resource_index/parent_prefix_path/test_competitor
+[94.031s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/ament_prefix_path.sh
+[94.031s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/ament_prefix_path.dsv
+[94.031s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/path.sh
+[94.031s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/path.dsv
+[94.032s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/local_setup.bash
+[94.032s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/local_setup.sh
+[94.032s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/local_setup.zsh
+[94.032s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/local_setup.dsv
+[94.032s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/package.dsv
+[94.033s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/ament_index/resource_index/packages/test_competitor
+[94.033s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/ament_cmake_export_libraries-extras.cmake
+[94.033s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[94.034s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[94.034s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/test_competitorConfig.cmake
+[94.034s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/test_competitorConfig-version.cmake
+[94.034s] -- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/package.xml
+[94.036s] Invoked command in '/home/shdh/enpm663_ws/build/test_competitor' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/shdh/enpm663_ws/build/test_competitor

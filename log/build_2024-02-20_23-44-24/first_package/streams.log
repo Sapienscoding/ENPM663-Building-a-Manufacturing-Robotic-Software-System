@@ -1,0 +1,128 @@
+[3.085s] Invoking command in '/home/shdh/enpm663_ws/build/first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/enpm663_spring2024/first_package -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/first_package
+[3.165s] -- The C compiler identification is GNU 10.5.0
+[3.275s] -- The CXX compiler identification is GNU 10.5.0
+[3.297s] -- Check for working C compiler: /usr/bin/cc
+[3.437s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.439s] -- Detecting C compiler ABI info
+[3.596s] -- Detecting C compiler ABI info - done
+[3.609s] -- Detecting C compile features
+[3.609s] -- Detecting C compile features - done
+[3.612s] -- Check for working CXX compiler: /usr/bin/c++
+[3.794s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.795s] -- Detecting CXX compiler ABI info
+[3.933s] -- Detecting CXX compiler ABI info - done
+[3.950s] -- Detecting CXX compile features
+[3.951s] -- Detecting CXX compile features - done
+[3.955s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.990s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.991s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.164s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[4.164s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[4.284s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.303s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[4.487s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.568s] -- Found FastRTPS: /opt/ros/galactic/include  
+[4.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.918s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[4.925s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[4.970s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.972s] -- Looking for pthread.h
+[5.084s] -- Looking for pthread.h - found
+[5.085s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.185s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.186s] -- Looking for pthread_create in pthreads
+[5.259s] -- Looking for pthread_create in pthreads - not found
+[5.260s] -- Looking for pthread_create in pthread
+[5.344s] -- Looking for pthread_create in pthread - found
+[5.348s] -- Found Threads: TRUE  
+[5.762s] -- Configuring done
+[5.783s] -- Generating done
+[5.784s] -- Build files have been written to: /home/shdh/enpm663_ws/build/first_package
+[6.720s] Invoked command in '/home/shdh/enpm663_ws/build/first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/enpm663_spring2024/first_package -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/first_package
+[6.734s] Invoking command in '/home/shdh/enpm663_ws/build/first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/first_package -- -j12 -l12
+[6.770s] [35m[1mScanning dependencies of target minimal_demo_cpp[0m
+[6.771s] [35m[1mScanning dependencies of target advanced_demo_cpp[0m
+[6.774s] [35m[1mScanning dependencies of target subscriber_demo_cpp[0m
+[6.775s] [35m[1mScanning dependencies of target ament_cmake_python_copy_first_package[0m
+[6.777s] [35m[1mScanning dependencies of target publisher_demo_cpp[0m
+[6.800s] [  0%] Built target ament_cmake_python_copy_first_package
+[6.817s] [35m[1mScanning dependencies of target ament_cmake_python_build_first_package_scripts[0m
+[6.820s] [35m[1mScanning dependencies of target ament_cmake_python_build_first_package_egg[0m
+[6.839s] [ 12%] [32mBuilding CXX object CMakeFiles/advanced_demo_cpp.dir/src/advanced_demo.cpp.o[0m
+[6.841s] [ 25%] [32mBuilding CXX object CMakeFiles/minimal_demo_cpp.dir/src/minimal_demo.cpp.o[0m
+[6.856s] [ 37%] [32mBuilding CXX object CMakeFiles/subscriber_demo_cpp.dir/src/subscriber_demo.cpp.o[0m
+[6.862s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_demo_cpp.dir/src/publisher_demo.cpp.o[0m
+[7.275s] running egg_info
+[7.275s] creating first_package.egg-info
+[7.276s] writing first_package.egg-info/PKG-INFO
+[7.276s] writing dependency_links to first_package.egg-info/dependency_links.txt
+[7.276s] writing top-level names to first_package.egg-info/top_level.txt
+[7.278s] writing manifest file 'first_package.egg-info/SOURCES.txt'
+[7.318s] running install_scripts
+[7.352s] running egg_info
+[7.353s] writing first_package.egg-info/PKG-INFO
+[7.354s] writing dependency_links to first_package.egg-info/dependency_links.txt
+[7.355s] reading manifest file 'first_package.egg-info/SOURCES.txt'
+[7.355s] writing top-level names to first_package.egg-info/top_level.txt
+[7.356s] writing manifest file 'first_package.egg-info/SOURCES.txt'
+[7.405s] [ 50%] Built target ament_cmake_python_build_first_package_egg
+[7.409s] reading manifest file 'first_package.egg-info/SOURCES.txt'
+[7.409s] writing manifest file 'first_package.egg-info/SOURCES.txt'
+[7.461s] [ 50%] Built target ament_cmake_python_build_first_package_scripts
+[11.255s] [ 62%] [32m[1mLinking CXX executable minimal_demo_cpp[0m
+[11.442s] [ 62%] Built target minimal_demo_cpp
+[11.473s] [ 75%] [32m[1mLinking CXX executable advanced_demo_cpp[0m
+[11.708s] [ 75%] Built target advanced_demo_cpp
+[14.021s] [ 87%] [32m[1mLinking CXX executable publisher_demo_cpp[0m
+[14.665s] [ 87%] Built target publisher_demo_cpp
+[20.762s] [100%] [32m[1mLinking CXX executable subscriber_demo_cpp[0m
+[21.675s] [100%] Built target subscriber_demo_cpp
+[21.717s] Invoked command in '/home/shdh/enpm663_ws/build/first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/first_package -- -j12 -l12
+[21.880s] Invoking command in '/home/shdh/enpm663_ws/build/first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/first_package
+[21.918s] -- Install configuration: ""
+[21.918s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo_cpp
+[21.919s] -- Set runtime path of "/home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo_cpp" to ""
+[21.919s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo_cpp
+[21.920s] -- Set runtime path of "/home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo_cpp" to ""
+[21.921s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo_cpp
+[21.923s] -- Set runtime path of "/home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo_cpp" to ""
+[21.924s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo_cpp
+[21.930s] -- Set runtime path of "/home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo_cpp" to ""
+[21.930s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/pythonpath.sh
+[21.930s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/pythonpath.dsv
+[21.930s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info
+[21.931s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/PKG-INFO
+[21.931s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/top_level.txt
+[21.949s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/SOURCES.txt
+[21.949s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/dependency_links.txt
+[21.949s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/
+[21.950s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package
+[21.950s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/publisher_interface.py
+[21.950s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/subscriber_interface.py
+[21.950s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/__init__.py
+[21.950s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/advanced_interface.py
+[22.062s] Listing '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package'...
+[22.062s] Compiling '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/__init__.py'...
+[22.062s] Compiling '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/advanced_interface.py'...
+[22.063s] Compiling '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/publisher_interface.py'...
+[22.063s] Compiling '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/subscriber_interface.py'...
+[22.071s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo.py
+[22.071s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo.py
+[22.072s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo.py
+[22.072s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo.py
+[22.073s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/package_run_dependencies/first_package
+[22.077s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/parent_prefix_path/first_package
+[22.081s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/ament_prefix_path.sh
+[22.082s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/ament_prefix_path.dsv
+[22.083s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/path.sh
+[22.083s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/path.dsv
+[22.084s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.bash
+[22.085s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.sh
+[22.085s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.zsh
+[22.086s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.dsv
+[22.087s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/package.dsv
+[22.088s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/packages/first_package
+[22.091s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/cmake/first_packageConfig.cmake
+[22.092s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/cmake/first_packageConfig-version.cmake
+[22.093s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/package.xml
+[22.116s] Invoked command in '/home/shdh/enpm663_ws/build/first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/first_package

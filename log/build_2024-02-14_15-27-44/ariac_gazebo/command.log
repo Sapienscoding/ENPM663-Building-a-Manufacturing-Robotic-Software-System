@@ -1,6 +1,0 @@
-Invoking command in '/home/shdh/enpm663_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_gazebo -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_gazebo
-Invoked command in '/home/shdh/enpm663_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_gazebo -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_gazebo
-Invoking command in '/home/shdh/enpm663_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_gazebo -- -j12 -l12
-Invoked command in '/home/shdh/enpm663_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_gazebo -- -j12 -l12
-Invoking command in '/home/shdh/enpm663_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_gazebo
-Invoked command in '/home/shdh/enpm663_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_gazebo

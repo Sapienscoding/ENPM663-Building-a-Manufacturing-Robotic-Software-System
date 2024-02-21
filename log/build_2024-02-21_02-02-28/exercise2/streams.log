@@ -1,0 +1,24 @@
+[5.062s] Invoking command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise2/prefix_override:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise2 build --build-base /home/shdh/enpm663_ws/build/exercise2/build install --record /home/shdh/enpm663_ws/build/exercise2/install.log --single-version-externally-managed
+[5.487s] running egg_info
+[5.487s] writing ../../../build/exercise2/exercise2.egg-info/PKG-INFO
+[5.488s] writing dependency_links to ../../../build/exercise2/exercise2.egg-info/dependency_links.txt
+[5.488s] writing entry points to ../../../build/exercise2/exercise2.egg-info/entry_points.txt
+[5.490s] writing requirements to ../../../build/exercise2/exercise2.egg-info/requires.txt
+[5.490s] writing top-level names to ../../../build/exercise2/exercise2.egg-info/top_level.txt
+[5.553s] reading manifest file '../../../build/exercise2/exercise2.egg-info/SOURCES.txt'
+[5.554s] writing manifest file '../../../build/exercise2/exercise2.egg-info/SOURCES.txt'
+[5.555s] running build
+[5.555s] running build_py
+[5.556s] copying exercise2/ex2_interface.py -> /home/shdh/enpm663_ws/build/exercise2/build/lib/exercise2
+[5.556s] running install
+[5.558s] running install_lib
+[5.559s] copying /home/shdh/enpm663_ws/build/exercise2/build/lib/exercise2/ex2_interface.py -> /home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages/exercise2
+[5.560s] byte-compiling /home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages/exercise2/ex2_interface.py to ex2_interface.cpython-38.pyc
+[5.564s] running install_data
+[5.566s] running install_egg_info
+[5.566s] removing '/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages/exercise2-0.0.0-py3.8.egg-info' (and everything under it)
+[5.567s] Copying ../../../build/exercise2/exercise2.egg-info to /home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages/exercise2-0.0.0-py3.8.egg-info
+[5.568s] running install_scripts
+[5.584s] Installing ex2_demo script to /home/shdh/enpm663_ws/install/exercise2/lib/exercise2
+[5.585s] writing list of installed files to '/home/shdh/enpm663_ws/build/exercise2/install.log'
+[7.297s] Invoked command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2' returned '0': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise2/prefix_override:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise2 build --build-base /home/shdh/enpm663_ws/build/exercise2/build install --record /home/shdh/enpm663_ws/build/exercise2/install.log --single-version-externally-managed

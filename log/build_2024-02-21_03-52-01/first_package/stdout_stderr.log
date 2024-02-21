@@ -1,0 +1,58 @@
+[ 25%] Built target minimal_demo_cpp
+[ 50%] Built target advanced_demo_cpp
+[ 50%] Built target ament_cmake_python_copy_first_package
+[ 75%] Built target subscriber_demo_cpp
+[100%] Built target publisher_demo_cpp
+running egg_info
+writing first_package.egg-info/PKG-INFO
+running install_scripts
+writing dependency_links to first_package.egg-info/dependency_links.txt
+writing top-level names to first_package.egg-info/top_level.txt
+running egg_info
+writing first_package.egg-info/PKG-INFO
+writing dependency_links to first_package.egg-info/dependency_links.txt
+writing top-level names to first_package.egg-info/top_level.txt
+reading manifest file 'first_package.egg-info/SOURCES.txt'
+writing manifest file 'first_package.egg-info/SOURCES.txt'
+reading manifest file 'first_package.egg-info/SOURCES.txt'
+writing manifest file 'first_package.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_first_package_egg
+[100%] Built target ament_cmake_python_build_first_package_scripts
+-- Install configuration: ""
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo_cpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo_cpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo_cpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo_cpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/pythonpath.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/pythonpath.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/PKG-INFO
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/top_level.txt
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/SOURCES.txt
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/dependency_links.txt
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/publisher_interface.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/subscriber_interface.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/__init__.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/advanced_interface.py
+Listing '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package'...
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/package_run_dependencies/first_package
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/parent_prefix_path/first_package
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.bash
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.zsh
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.dsv
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/package.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/packages/first_package
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/cmake/first_packageConfig.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/cmake/first_packageConfig-version.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/package.xml

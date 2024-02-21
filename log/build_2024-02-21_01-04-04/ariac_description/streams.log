@@ -1,0 +1,1 @@
+[3.605s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_description -- -j12 -l12

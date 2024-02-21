@@ -1,0 +1,15 @@
+[4.060s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_msgs -- -j12 -l12
+[6.011s] [  0%] Built target ariac_msgs__cpp
+[6.011s] [ 12%] Built target ariac_msgs__rosidl_generator_c
+[6.012s] [ 24%] Built target ariac_msgs__rosidl_typesupport_cpp
+[6.013s] [ 37%] Built target ariac_msgs__rosidl_typesupport_introspection_cpp
+[6.014s] [ 50%] Built target ariac_msgs__rosidl_typesupport_c
+[6.015s] [ 62%] Built target ariac_msgs__rosidl_typesupport_fastrtps_cpp
+[6.015s] [ 75%] Built target ariac_msgs__rosidl_typesupport_introspection_c
+[6.015s] [ 88%] Built target ariac_msgs__rosidl_typesupport_fastrtps_c
+[6.015s] [ 88%] Built target ariac_msgs
+[6.016s] [ 88%] Built target ariac_msgs__py
+[6.016s] [100%] Built target ariac_msgs__python
+[6.016s] [100%] Built target ariac_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.016s] [100%] Built target ariac_msgs__rosidl_typesupport_c__pyext
+[6.016s] [100%] Built target ariac_msgs__rosidl_typesupport_introspection_c__pyext

@@ -1,0 +1,62 @@
+[2.749s] Invoking command in '/home/shdh/enpm663_ws/build/first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/first_package -- -j12 -l12
+[2.832s] [  0%] Built target ament_cmake_python_copy_first_package
+[2.835s] [ 25%] Built target advanced_demo_cpp
+[2.842s] [ 50%] Built target minimal_demo_cpp
+[2.846s] [ 75%] Built target subscriber_demo_cpp
+[2.847s] [100%] Built target publisher_demo_cpp
+[3.351s] running install_scripts
+[3.357s] running egg_info
+[3.358s] writing first_package.egg-info/PKG-INFO
+[3.358s] writing dependency_links to first_package.egg-info/dependency_links.txt
+[3.358s] writing top-level names to first_package.egg-info/top_level.txt
+[3.393s] running egg_info
+[3.397s] writing first_package.egg-info/PKG-INFO
+[3.398s] writing dependency_links to first_package.egg-info/dependency_links.txt
+[3.400s] writing top-level names to first_package.egg-info/top_level.txt
+[3.434s] reading manifest file 'first_package.egg-info/SOURCES.txt'
+[3.434s] writing manifest file 'first_package.egg-info/SOURCES.txt'
+[3.462s] reading manifest file 'first_package.egg-info/SOURCES.txt'
+[3.463s] writing manifest file 'first_package.egg-info/SOURCES.txt'
+[3.470s] [100%] Built target ament_cmake_python_build_first_package_egg
+[3.512s] [100%] Built target ament_cmake_python_build_first_package_scripts
+[6.454s] Invoked command in '/home/shdh/enpm663_ws/build/first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/first_package -- -j12 -l12
+[8.391s] Invoking command in '/home/shdh/enpm663_ws/build/first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/first_package
+[8.397s] -- Install configuration: ""
+[8.397s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo_cpp
+[8.397s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo_cpp
+[8.398s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo_cpp
+[8.398s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo_cpp
+[8.398s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/pythonpath.sh
+[8.398s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/pythonpath.dsv
+[8.399s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info
+[8.399s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/PKG-INFO
+[8.399s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/top_level.txt
+[8.399s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/SOURCES.txt
+[8.399s] -- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/dependency_links.txt
+[8.399s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/
+[8.400s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package
+[8.400s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/publisher_interface.py
+[8.400s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/subscriber_interface.py
+[8.400s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/__init__.py
+[8.400s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/advanced_interface.py
+[8.434s] Listing '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package'...
+[8.439s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo.py
+[8.439s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo.py
+[8.439s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo.py
+[8.439s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo.py
+[8.440s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/package_run_dependencies/first_package
+[8.440s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/parent_prefix_path/first_package
+[8.440s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/ament_prefix_path.sh
+[8.440s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/ament_prefix_path.dsv
+[8.440s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/path.sh
+[8.440s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/path.dsv
+[8.440s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.bash
+[8.440s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.sh
+[8.441s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.zsh
+[8.441s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.dsv
+[8.441s] -- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/package.dsv
+[8.441s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/packages/first_package
+[8.441s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/cmake/first_packageConfig.cmake
+[8.441s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/cmake/first_packageConfig-version.cmake
+[8.441s] -- Up-to-date: /home/shdh/enpm663_ws/install/first_package/share/first_package/package.xml
+[8.442s] Invoked command in '/home/shdh/enpm663_ws/build/first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/first_package

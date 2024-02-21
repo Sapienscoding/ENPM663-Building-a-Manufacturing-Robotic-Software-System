@@ -1,0 +1,4 @@
+[console_scripts]
+ex3_pub_demo = exercise3.ex3_pub_demo:main
+ex3_sub_demo = exercise3.ex3_sub_demo:main
+

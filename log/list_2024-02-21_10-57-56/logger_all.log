@@ -1,0 +1,400 @@
+[6.213s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/shdh/enpm663_ws']
+[6.213s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/shdh/enpm663_ws'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fd0f34c0c70>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fd0f34c0c70>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd0f32008e0>)
+[6.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.499s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/shdh/enpm663_ws'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extensions ['ignore', 'ignore_ament_install']
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extension 'ignore'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extension 'ignore_ament_install'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extensions ['colcon_pkg']
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extension 'colcon_pkg'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extensions ['colcon_meta']
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extension 'colcon_meta'
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extensions ['ros']
+[6.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extension 'ros'
+[6.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extensions ['cmake', 'python']
+[6.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extension 'cmake'
+[6.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extension 'python'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extensions ['python_setup_py']
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws) by extension 'python_setup_py'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/build) by extension 'ignore'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/build) ignored
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/install) by extension 'ignore'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/install) ignored
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/log) by extension 'ignore'
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/log) ignored
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[6.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extension 'ignore'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extension 'ignore_ament_install'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extensions ['colcon_pkg']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extension 'colcon_pkg'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extensions ['colcon_meta']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extension 'colcon_meta'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extensions ['ros']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extension 'ros'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extensions ['cmake', 'python']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extension 'cmake'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extension 'python'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extensions ['python_setup_py']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src) by extension 'python_setup_py'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extensions ['ignore', 'ignore_ament_install']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extension 'ignore'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extension 'ignore_ament_install'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extensions ['colcon_pkg']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extension 'colcon_pkg'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extensions ['colcon_meta']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extension 'colcon_meta'
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extensions ['ros']
+[6.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extension 'ros'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extensions ['cmake', 'python']
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extension 'cmake'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extension 'python'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extensions ['python_setup_py']
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac) by extension 'python_setup_py'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extensions ['ignore', 'ignore_ament_install']
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extension 'ignore'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extension 'ignore_ament_install'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extensions ['colcon_pkg']
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extension 'colcon_pkg'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extensions ['colcon_meta']
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extension 'colcon_meta'
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extensions ['ros']
+[6.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_description) by extension 'ros'
+[6.513s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/ariac_description' with type 'ros.ament_cmake' and name 'ariac_description'
+[6.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[6.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extension 'ignore'
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extension 'ignore_ament_install'
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extensions ['colcon_pkg']
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extension 'colcon_pkg'
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extensions ['colcon_meta']
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extension 'colcon_meta'
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extensions ['ros']
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gazebo) by extension 'ros'
+[6.514s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/ariac_gazebo' with type 'ros.ament_cmake' and name 'ariac_gazebo'
+[6.514s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extensions ['ignore', 'ignore_ament_install']
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extension 'ignore'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extension 'ignore_ament_install'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extensions ['colcon_pkg']
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extension 'colcon_pkg'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extensions ['colcon_meta']
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extension 'colcon_meta'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extensions ['ros']
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_gui) by extension 'ros'
+[6.515s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/ariac_gui' with type 'ros.ament_python' and name 'ariac_gui'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extensions ['ignore', 'ignore_ament_install']
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extension 'ignore'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extension 'ignore_ament_install'
+[6.515s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extensions ['colcon_pkg']
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extension 'colcon_pkg'
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extensions ['colcon_meta']
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extension 'colcon_meta'
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extensions ['ros']
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_human) by extension 'ros'
+[6.516s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/ariac_human' with type 'ros.ament_cmake' and name 'ariac_human'
+[6.516s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extension 'ignore'
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extension 'ignore_ament_install'
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extensions ['colcon_pkg']
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extension 'colcon_pkg'
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extensions ['colcon_meta']
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extension 'colcon_meta'
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extensions ['ros']
+[6.517s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config) by extension 'ros'
+[6.517s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/ariac_moveit_config' with type 'ros.ament_cmake' and name 'ariac_moveit_config'
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extensions ['ignore', 'ignore_ament_install']
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extension 'ignore'
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extension 'ignore_ament_install'
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extensions ['colcon_pkg']
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extension 'colcon_pkg'
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extensions ['colcon_meta']
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extension 'colcon_meta'
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extensions ['ros']
+[6.518s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_msgs) by extension 'ros'
+[6.519s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/ariac_msgs' with type 'ros.ament_cmake' and name 'ariac_msgs'
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extensions ['ignore', 'ignore_ament_install']
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extension 'ignore'
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extension 'ignore_ament_install'
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extensions ['colcon_pkg']
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extension 'colcon_pkg'
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extensions ['colcon_meta']
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extension 'colcon_meta'
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extensions ['ros']
+[6.519s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_plugins) by extension 'ros'
+[6.520s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/ariac_plugins' with type 'ros.ament_cmake' and name 'ariac_plugins'
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extensions ['ignore', 'ignore_ament_install']
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extension 'ignore'
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extension 'ignore_ament_install'
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extensions ['colcon_pkg']
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extension 'colcon_pkg'
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extensions ['colcon_meta']
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extension 'colcon_meta'
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extensions ['ros']
+[6.520s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/ariac_sensors) by extension 'ros'
+[6.521s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/ariac_sensors' with type 'ros.ament_cmake' and name 'ariac_sensors'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extensions ['ignore', 'ignore_ament_install']
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extension 'ignore'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extension 'ignore_ament_install'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extensions ['colcon_pkg']
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extension 'colcon_pkg'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extensions ['colcon_meta']
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extension 'colcon_meta'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extensions ['ros']
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extension 'ros'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extensions ['cmake', 'python']
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extension 'cmake'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extension 'python'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extensions ['python_setup_py']
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation) by extension 'python_setup_py'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extensions ['ignore', 'ignore_ament_install']
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extension 'ignore'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extension 'ignore_ament_install'
+[6.522s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extensions ['colcon_pkg']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extension 'colcon_pkg'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extensions ['colcon_meta']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extension 'colcon_meta'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extensions ['ros']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extension 'ros'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extensions ['cmake', 'python']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extension 'cmake'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extension 'python'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extensions ['python_setup_py']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/competitor_build_scripts) by extension 'python_setup_py'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extensions ['ignore', 'ignore_ament_install']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extension 'ignore'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extension 'ignore_ament_install'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extensions ['colcon_pkg']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extension 'colcon_pkg'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extensions ['colcon_meta']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extension 'colcon_meta'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extensions ['ros']
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extension 'ros'
+[6.523s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extensions ['cmake', 'python']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extension 'cmake'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extension 'python'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extensions ['python_setup_py']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/scripts) by extension 'python_setup_py'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extensions ['ignore', 'ignore_ament_install']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extension 'ignore'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extension 'ignore_ament_install'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extensions ['colcon_pkg']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extension 'colcon_pkg'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extensions ['colcon_meta']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extension 'colcon_meta'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extensions ['ros']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extension 'ros'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extensions ['cmake', 'python']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extension 'cmake'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extension 'python'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extensions ['python_setup_py']
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/automated_evaluation/trials) by extension 'python_setup_py'
+[6.524s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extensions ['ignore', 'ignore_ament_install']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extension 'ignore'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extension 'ignore_ament_install'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extensions ['colcon_pkg']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extension 'colcon_pkg'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extensions ['colcon_meta']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extension 'colcon_meta'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extensions ['ros']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extension 'ros'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extensions ['cmake', 'python']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extension 'cmake'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extension 'python'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extensions ['python_setup_py']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs) by extension 'python_setup_py'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extensions ['ignore', 'ignore_ament_install']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extension 'ignore'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extension 'ignore_ament_install'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extensions ['colcon_pkg']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extension 'colcon_pkg'
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extensions ['colcon_meta']
+[6.525s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extension 'colcon_meta'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extensions ['ros']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extension 'ros'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extensions ['cmake', 'python']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extension 'cmake'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extension 'python'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extensions ['python_setup_py']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/automated_evaluation) by extension 'python_setup_py'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extensions ['ignore', 'ignore_ament_install']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extension 'ignore'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extension 'ignore_ament_install'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extensions ['colcon_pkg']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extension 'colcon_pkg'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extensions ['colcon_meta']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extension 'colcon_meta'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extensions ['ros']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extension 'ros'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extensions ['cmake', 'python']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extension 'cmake'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extension 'python'
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extensions ['python_setup_py']
+[6.526s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/competition) by extension 'python_setup_py'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extensions ['ignore', 'ignore_ament_install']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extension 'ignore'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extension 'ignore_ament_install'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extensions ['colcon_pkg']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extension 'colcon_pkg'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extensions ['colcon_meta']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extension 'colcon_meta'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extensions ['ros']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extension 'ros'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extensions ['cmake', 'python']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extension 'cmake'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extension 'python'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extensions ['python_setup_py']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom) by extension 'python_setup_py'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extensions ['ignore', 'ignore_ament_install']
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extension 'ignore'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extension 'ignore_ament_install'
+[6.527s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extensions ['colcon_pkg']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extension 'colcon_pkg'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extensions ['colcon_meta']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extension 'colcon_meta'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extensions ['ros']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extension 'ros'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extensions ['cmake', 'python']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extension 'cmake'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extension 'python'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extensions ['python_setup_py']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/css) by extension 'python_setup_py'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extensions ['ignore', 'ignore_ament_install']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extension 'ignore'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extension 'ignore_ament_install'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extensions ['colcon_pkg']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extension 'colcon_pkg'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extensions ['colcon_meta']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extension 'colcon_meta'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extensions ['ros']
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extension 'ros'
+[6.528s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extensions ['cmake', 'python']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extension 'cmake'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extension 'python'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extensions ['python_setup_py']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/custom/js) by extension 'python_setup_py'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extensions ['ignore', 'ignore_ament_install']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extension 'ignore'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extension 'ignore_ament_install'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extensions ['colcon_pkg']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extension 'colcon_pkg'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extensions ['colcon_meta']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extension 'colcon_meta'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extensions ['ros']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extension 'ros'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extensions ['cmake', 'python']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extension 'cmake'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extension 'python'
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extensions ['python_setup_py']
+[6.529s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/getting_started) by extension 'python_setup_py'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extension 'ignore'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extension 'ignore_ament_install'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extensions ['colcon_pkg']
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extension 'colcon_pkg'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extensions ['colcon_meta']
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extension 'colcon_meta'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extensions ['ros']
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extension 'ros'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extensions ['cmake', 'python']
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extension 'cmake'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extension 'python'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extensions ['python_setup_py']
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/images) by extension 'python_setup_py'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extensions ['ignore', 'ignore_ament_install']
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extension 'ignore'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extension 'ignore_ament_install'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extensions ['colcon_pkg']
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extension 'colcon_pkg'
+[6.530s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extensions ['colcon_meta']
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extension 'colcon_meta'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extensions ['ros']
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extension 'ros'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extensions ['cmake', 'python']
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extension 'cmake'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extension 'python'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extensions ['python_setup_py']
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/docs/tutorials) by extension 'python_setup_py'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extensions ['ignore', 'ignore_ament_install']
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extension 'ignore'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extension 'ignore_ament_install'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extensions ['colcon_pkg']
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extension 'colcon_pkg'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extensions ['colcon_meta']
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extension 'colcon_meta'
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extensions ['ros']
+[6.531s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/ariac/test_competitor) by extension 'ros'
+[6.532s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/ariac/test_competitor' with type 'ros.ament_cmake' and name 'test_competitor'
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extensions ['ignore', 'ignore_ament_install']
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extension 'ignore'
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extension 'ignore_ament_install'
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extensions ['colcon_pkg']
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extension 'colcon_pkg'
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extensions ['colcon_meta']
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extension 'colcon_meta'
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extensions ['ros']
+[6.532s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extension 'ros'
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extensions ['cmake', 'python']
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extension 'cmake'
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extension 'python'
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extensions ['python_setup_py']
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024) by extension 'python_setup_py'
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extensions ['ignore', 'ignore_ament_install']
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extension 'ignore'
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extension 'ignore_ament_install'
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extensions ['colcon_pkg']
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extension 'colcon_pkg'
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extensions ['colcon_meta']
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extension 'colcon_meta'
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extensions ['ros']
+[6.533s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package) by extension 'ros'
+[6.534s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/enpm663_spring2024/first_package' with type 'ros.ament_cmake' and name 'first_package'
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extensions ['ignore', 'ignore_ament_install']
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extension 'ignore'
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extension 'ignore_ament_install'
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extensions ['colcon_pkg']
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extension 'colcon_pkg'
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extensions ['colcon_meta']
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extension 'colcon_meta'
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extensions ['ros']
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extension 'ros'
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extensions ['cmake', 'python']
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extension 'cmake'
+[6.534s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extension 'python'
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extensions ['python_setup_py']
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma) by extension 'python_setup_py'
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extensions ['ignore', 'ignore_ament_install']
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extension 'ignore'
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extension 'ignore_ament_install'
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extensions ['colcon_pkg']
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extension 'colcon_pkg'
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extensions ['colcon_meta']
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extension 'colcon_meta'
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extensions ['ros']
+[6.535s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1) by extension 'ros'
+[6.536s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1' with type 'ros.ament_python' and name 'exercise1'
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extensions ['ignore', 'ignore_ament_install']
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extension 'ignore'
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extension 'ignore_ament_install'
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extensions ['colcon_pkg']
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extension 'colcon_pkg'
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extensions ['colcon_meta']
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extension 'colcon_meta'
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extensions ['ros']
+[6.536s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2) by extension 'ros'
+[6.537s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise2' with type 'ros.ament_python' and name 'exercise2'
+[6.537s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extensions ['ignore', 'ignore_ament_install']
+[6.537s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extension 'ignore'
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extension 'ignore_ament_install'
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extensions ['colcon_pkg']
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extension 'colcon_pkg'
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extensions ['colcon_meta']
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extension 'colcon_meta'
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extensions ['ros']
+[6.538s] Level 1:colcon.colcon_core.package_identification:_identify(/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3) by extension 'ros'
+[6.538s] DEBUG:colcon.colcon_core.package_identification:Package '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3' with type 'ros.ament_python' and name 'exercise3'
+[6.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

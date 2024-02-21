@@ -1,0 +1,56 @@
+[  9%] Built target agv_plugin
+[ 18%] Built target assembly_lock_plugin
+[ 27%] Built target AGVTrayPlugin
+[ 36%] Built target ObjectDisposalPlugin
+[ 45%] Built target VacuumGripperPlugin
+[ 54%] Built target assembly_state_publisher
+[ 63%] Built target conveyor_belt_plugin
+[ 72%] Built target GripperColorPlugin
+[ 81%] Built target disable_shadows_plugin
+[ 90%] Built target HumanTeleportPlugin
+[100%] Built target TaskManagerPlugin
+-- Install configuration: ""
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/library_path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/library_path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ament_index/resource_index/package_run_dependencies/ariac_plugins
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ament_index/resource_index/parent_prefix_path/ariac_plugins
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/environment/path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/local_setup.bash
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/local_setup.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/local_setup.zsh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/local_setup.dsv
+-- Installing: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/package.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ament_index/resource_index/packages/ariac_plugins
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/cmake/ariac_pluginsConfig.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/cmake/ariac_pluginsConfig-version.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/share/ariac_plugins/package.xml
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/human_teleport_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/disable_shadows_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/vacuum_gripper_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/agv_tray_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/object_disposal_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/ariac_plugin_template.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/task_manager_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/gripper_color_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/agv_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/ariac_common.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/assembly_lock_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/conveyor_belt_plugin.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/include/ariac_plugins/assembly_state_publisher.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libVacuumGripperPlugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libconveyor_belt_plugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libagv_plugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libassembly_lock_plugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libassembly_state_publisher.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libGripperColorPlugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libdisable_shadows_plugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libObjectDisposalPlugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libAGVTrayPlugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libTaskManagerPlugin.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_plugins/lib/libHumanTeleportPlugin.so

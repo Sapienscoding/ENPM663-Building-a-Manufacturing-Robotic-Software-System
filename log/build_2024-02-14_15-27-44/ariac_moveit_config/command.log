@@ -1,6 +1,0 @@
-Invoking command in '/home/shdh/enpm663_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_moveit_config -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_moveit_config
-Invoked command in '/home/shdh/enpm663_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_moveit_config -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_moveit_config
-Invoking command in '/home/shdh/enpm663_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_moveit_config -- -j12 -l12
-Invoked command in '/home/shdh/enpm663_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_moveit_config -- -j12 -l12
-Invoking command in '/home/shdh/enpm663_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_moveit_config
-Invoked command in '/home/shdh/enpm663_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_moveit_config

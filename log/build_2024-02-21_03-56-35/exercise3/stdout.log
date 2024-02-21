@@ -1,0 +1,21 @@
+running egg_info
+writing ../../../build/exercise3/exercise3.egg-info/PKG-INFO
+writing dependency_links to ../../../build/exercise3/exercise3.egg-info/dependency_links.txt
+writing entry points to ../../../build/exercise3/exercise3.egg-info/entry_points.txt
+writing requirements to ../../../build/exercise3/exercise3.egg-info/requires.txt
+writing top-level names to ../../../build/exercise3/exercise3.egg-info/top_level.txt
+reading manifest file '../../../build/exercise3/exercise3.egg-info/SOURCES.txt'
+writing manifest file '../../../build/exercise3/exercise3.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/shdh/enpm663_ws/install/exercise3/share/exercise3
+running install_egg_info
+removing '/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../../build/exercise3/exercise3.egg-info to /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ex3_pub_demo script to /home/shdh/enpm663_ws/install/exercise3/lib/exercise3
+Installing ex3_sub_demo script to /home/shdh/enpm663_ws/install/exercise3/lib/exercise3
+writing list of installed files to '/home/shdh/enpm663_ws/build/exercise3/install.log'

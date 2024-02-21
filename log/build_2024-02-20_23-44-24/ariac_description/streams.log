@@ -1,0 +1,81 @@
+[3.718s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_description -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_description
+[6.324s] -- The C compiler identification is GNU 10.5.0
+[6.324s] -- The CXX compiler identification is GNU 10.5.0
+[6.325s] -- Check for working C compiler: /usr/bin/cc
+[6.325s] -- Check for working C compiler: /usr/bin/cc -- works
+[6.326s] -- Detecting C compiler ABI info
+[6.327s] -- Detecting C compiler ABI info - done
+[6.327s] -- Detecting C compile features
+[6.327s] -- Detecting C compile features - done
+[6.327s] -- Check for working CXX compiler: /usr/bin/c++
+[6.327s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.327s] -- Detecting CXX compiler ABI info
+[6.327s] -- Detecting CXX compiler ABI info - done
+[6.327s] -- Detecting CXX compile features
+[6.328s] -- Detecting CXX compile features - done
+[6.331s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[6.331s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.331s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.331s] -- Configuring done
+[6.331s] -- Generating done
+[6.333s] -- Build files have been written to: /home/shdh/enpm663_ws/build/ariac_description
+[6.359s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_description -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_description
+[6.360s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_description -- -j12 -l12
+[6.368s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_description -- -j12 -l12
+[6.436s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_description
+[6.451s] -- Install configuration: ""
+[6.451s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/config
+[6.451s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/config/ceiling_robot_initial_positions.yaml
+[6.452s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/config/floor_robot_initial_positions.yaml
+[6.452s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/config/robot_controllers.yaml
+[6.452s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes
+[6.452s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/agv
+[6.453s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/agv/tray.stl
+[6.453s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/agv/robot.png
+[6.454s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/agv/robot.dae
+[6.454s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/agv/contact_sensor.stl
+[6.455s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry
+[6.455s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry/torso_fixed_normals.dae
+[6.459s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry/green_metal_rust_diff_4k.jpg
+[6.470s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry/torso_base.dae
+[6.473s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry/rusty_metal_02_diff_2k.jpg
+[6.480s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry/ARIAC_GRN_Logo.png
+[6.505s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry/gantry_tray.dae
+[6.505s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry/NIST_Green_bake.png
+[6.514s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/gantry/Metal024_2K_Color.jpg
+[6.523s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/vacuum_gripper
+[6.523s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/meshes/vacuum_gripper/vacuum_gripper.stl
+[6.523s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf
+[6.523s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/floor_robot
+[6.524s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/floor_robot/linear_actuator.ros2_control.xacro
+[6.524s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/floor_robot/floor_robot_macro.xacro
+[6.524s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/floor_robot/linear_actuator_macro.xacro
+[6.525s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/agv
+[6.525s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/agv/agv.ros2_control.xacro
+[6.525s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/agv/agv_macro.xacro
+[6.526s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/human
+[6.526s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/human/human.urdf.xacro
+[6.526s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/vacuum_gripper
+[6.527s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/vacuum_gripper/vacuum_gripper_macro.xacro
+[6.527s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/ceiling_robot
+[6.527s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/ceiling_robot/gantry_macro.xacro
+[6.527s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/ceiling_robot/ceiling_robot_macro.xacro
+[6.528s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/ceiling_robot/gantry.ros2_control.xacro
+[6.528s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/ariac_robots
+[6.528s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/urdf/ariac_robots/ariac_robots.urdf.xacro
+[6.529s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ament_index/resource_index/package_run_dependencies/ariac_description
+[6.529s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ament_index/resource_index/parent_prefix_path/ariac_description
+[6.529s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/environment/ament_prefix_path.sh
+[6.530s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/environment/ament_prefix_path.dsv
+[6.530s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/environment/path.sh
+[6.530s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/environment/path.dsv
+[6.531s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/local_setup.bash
+[6.531s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/local_setup.sh
+[6.531s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/local_setup.zsh
+[6.532s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/local_setup.dsv
+[6.532s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/package.dsv
+[6.532s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ament_index/resource_index/packages/ariac_description
+[6.533s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/cmake/ariac_descriptionConfig.cmake
+[6.533s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/cmake/ariac_descriptionConfig-version.cmake
+[6.533s] -- Installing: /home/shdh/enpm663_ws/install/ariac_description/share/ariac_description/package.xml
+[6.536s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_description

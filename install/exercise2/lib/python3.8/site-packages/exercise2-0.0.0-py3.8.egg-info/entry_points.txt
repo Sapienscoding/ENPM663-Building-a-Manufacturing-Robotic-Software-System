@@ -1,0 +1,3 @@
+[console_scripts]
+ex2_demo = exercise2.ex2_demo:main
+

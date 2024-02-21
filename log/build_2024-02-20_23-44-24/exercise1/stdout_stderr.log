@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/exercise1/exercise1.egg-info
+writing ../../../build/exercise1/exercise1.egg-info/PKG-INFO
+writing dependency_links to ../../../build/exercise1/exercise1.egg-info/dependency_links.txt
+writing entry points to ../../../build/exercise1/exercise1.egg-info/entry_points.txt
+writing requirements to ../../../build/exercise1/exercise1.egg-info/requires.txt
+writing top-level names to ../../../build/exercise1/exercise1.egg-info/top_level.txt
+writing manifest file '../../../build/exercise1/exercise1.egg-info/SOURCES.txt'
+reading manifest file '../../../build/exercise1/exercise1.egg-info/SOURCES.txt'
+writing manifest file '../../../build/exercise1/exercise1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/shdh/enpm663_ws/build/exercise1/build
+creating /home/shdh/enpm663_ws/build/exercise1/build/lib
+creating /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1
+copying exercise1/__init__.py -> /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1
+copying exercise1/ex1_interface.py -> /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1
+running install
+running install_lib
+creating /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1
+copying /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1/__init__.py -> /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1
+copying /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1/ex1_interface.py -> /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1
+byte-compiling /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1/ex1_interface.py to ex1_interface.cpython-38.pyc
+running install_data
+creating /home/shdh/enpm663_ws/install/exercise1/share/ament_index
+creating /home/shdh/enpm663_ws/install/exercise1/share/ament_index/resource_index
+creating /home/shdh/enpm663_ws/install/exercise1/share/ament_index/resource_index/packages
+copying resource/exercise1 -> /home/shdh/enpm663_ws/install/exercise1/share/ament_index/resource_index/packages
+copying package.xml -> /home/shdh/enpm663_ws/install/exercise1/share/exercise1
+running install_egg_info
+Copying ../../../build/exercise1/exercise1.egg-info to /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ex1_demo script to /home/shdh/enpm663_ws/install/exercise1/lib/exercise1
+writing list of installed files to '/home/shdh/enpm663_ws/build/exercise1/install.log'

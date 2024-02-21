@@ -1,0 +1,122 @@
+-- The C compiler identification is GNU 10.5.0
+-- The CXX compiler identification is GNU 10.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/galactic/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/shdh/enpm663_ws/build/first_package
+[35m[1mScanning dependencies of target minimal_demo_cpp[0m
+[35m[1mScanning dependencies of target advanced_demo_cpp[0m
+[35m[1mScanning dependencies of target subscriber_demo_cpp[0m
+[35m[1mScanning dependencies of target ament_cmake_python_copy_first_package[0m
+[35m[1mScanning dependencies of target publisher_demo_cpp[0m
+[  0%] Built target ament_cmake_python_copy_first_package
+[35m[1mScanning dependencies of target ament_cmake_python_build_first_package_scripts[0m
+[35m[1mScanning dependencies of target ament_cmake_python_build_first_package_egg[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/advanced_demo_cpp.dir/src/advanced_demo.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/minimal_demo_cpp.dir/src/minimal_demo.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/subscriber_demo_cpp.dir/src/subscriber_demo.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/publisher_demo_cpp.dir/src/publisher_demo.cpp.o[0m
+running egg_info
+creating first_package.egg-info
+writing first_package.egg-info/PKG-INFO
+writing dependency_links to first_package.egg-info/dependency_links.txt
+writing top-level names to first_package.egg-info/top_level.txt
+writing manifest file 'first_package.egg-info/SOURCES.txt'
+running install_scripts
+running egg_info
+writing first_package.egg-info/PKG-INFO
+writing dependency_links to first_package.egg-info/dependency_links.txt
+reading manifest file 'first_package.egg-info/SOURCES.txt'
+writing top-level names to first_package.egg-info/top_level.txt
+writing manifest file 'first_package.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_first_package_egg
+reading manifest file 'first_package.egg-info/SOURCES.txt'
+writing manifest file 'first_package.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_first_package_scripts
+[ 62%] [32m[1mLinking CXX executable minimal_demo_cpp[0m
+[ 62%] Built target minimal_demo_cpp
+[ 75%] [32m[1mLinking CXX executable advanced_demo_cpp[0m
+[ 75%] Built target advanced_demo_cpp
+[ 87%] [32m[1mLinking CXX executable publisher_demo_cpp[0m
+[ 87%] Built target publisher_demo_cpp
+[100%] [32m[1mLinking CXX executable subscriber_demo_cpp[0m
+[100%] Built target subscriber_demo_cpp
+-- Install configuration: ""
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo_cpp
+-- Set runtime path of "/home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo_cpp" to ""
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo_cpp
+-- Set runtime path of "/home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo_cpp" to ""
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo_cpp
+-- Set runtime path of "/home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo_cpp" to ""
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo_cpp
+-- Set runtime path of "/home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo_cpp" to ""
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/pythonpath.sh
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/pythonpath.dsv
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/PKG-INFO
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/top_level.txt
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/SOURCES.txt
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages//first_package.egg-info/dependency_links.txt
+-- Up-to-date: /home/shdh/enpm663_ws/install/first_package/lib/first_package/
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/publisher_interface.py
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/subscriber_interface.py
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/__init__.py
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/advanced_interface.py
+Listing '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package'...
+Compiling '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/__init__.py'...
+Compiling '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/advanced_interface.py'...
+Compiling '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/publisher_interface.py'...
+Compiling '/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages/first_package/subscriber_interface.py'...
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/minimal_demo.py
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/advanced_demo.py
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/publisher_demo.py
+-- Installing: /home/shdh/enpm663_ws/install/first_package/lib/first_package/subscriber_demo.py
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/package_run_dependencies/first_package
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/parent_prefix_path/first_package
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/ament_prefix_path.sh
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/ament_prefix_path.dsv
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/path.sh
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/environment/path.dsv
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.bash
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.sh
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.zsh
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/local_setup.dsv
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/package.dsv
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/ament_index/resource_index/packages/first_package
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/cmake/first_packageConfig.cmake
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/cmake/first_packageConfig-version.cmake
+-- Installing: /home/shdh/enpm663_ws/install/first_package/share/first_package/package.xml

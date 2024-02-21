@@ -1,0 +1,79 @@
+Built target ament_cmake_python_copy_ariac_human_setup
+Built target ament_cmake_python_copy_ariac_human
+running egg_info
+writing ariac_human.egg-info/PKG-INFO
+writing dependency_links to ariac_human.egg-info/dependency_links.txt
+writing top-level names to ariac_human.egg-info/top_level.txt
+running install_scripts
+running egg_info
+writing ariac_human.egg-info/PKG-INFO
+writing dependency_links to ariac_human.egg-info/dependency_links.txt
+writing top-level names to ariac_human.egg-info/top_level.txt
+reading manifest file 'ariac_human.egg-info/SOURCES.txt'
+writing manifest file 'ariac_human.egg-info/SOURCES.txt'
+reading manifest file 'ariac_human.egg-info/SOURCES.txt'
+writing manifest file 'ariac_human.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ariac_human_egg
+Built target ament_cmake_python_build_ariac_human_scripts
+-- Install configuration: ""
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/helpful.mas2j
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/build.gradle
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradlew.bat
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradle
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradle/wrapper
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradle/wrapper/gradle-wrapper.properties
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradle/wrapper/gradle-wrapper.jar
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/runAriac_Human.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/lib
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/lib/java_rosbridge_all.jar
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/logging.properties
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/indifferent.mas2j
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl/human.asl
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl/antagonistic.asl
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl/indifferent.asl
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl/helpful.asl
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/java
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/java/RosEnv.java
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradlew
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/antagonistic.mas2j
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//launch
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//launch/human.launch.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//config
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//config/human_params.yaml
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//map
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//map/ariac_map.pgm
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//map/ariac_map.yaml
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//rviz
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//rviz/navigation.rviz
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/agent/gradlew
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/pythonpath.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/pythonpath.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info
+-- Installing: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info/PKG-INFO
+-- Installing: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info/top_level.txt
+-- Installing: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info/SOURCES.txt
+-- Installing: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info/dependency_links.txt
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/ariac_human/
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages/ariac_human
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages/ariac_human/__init__.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages/ariac_human/human_control.py
+Listing '/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages/ariac_human'...
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/ariac_human/human_control_node.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ament_index/resource_index/package_run_dependencies/ariac_human
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ament_index/resource_index/parent_prefix_path/ariac_human
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/local_setup.bash
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/local_setup.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/local_setup.zsh
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/local_setup.dsv
+-- Installing: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/package.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ament_index/resource_index/packages/ariac_human
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/cmake/ariac_humanConfig.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/cmake/ariac_humanConfig-version.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/package.xml

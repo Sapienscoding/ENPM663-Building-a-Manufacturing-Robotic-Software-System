@@ -1,0 +1,85 @@
+[4.008s] Invoking command in '/home/shdh/enpm663_ws/src/ariac/ariac_gui': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/build/ariac_gui/prefix_override:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ariac_gui build --build-base /home/shdh/enpm663_ws/build/ariac_gui/build install --record /home/shdh/enpm663_ws/build/ariac_gui/install.log --single-version-externally-managed
+[4.382s] running egg_info
+[4.383s] creating ../../../build/ariac_gui/ariac_gui.egg-info
+[4.383s] writing ../../../build/ariac_gui/ariac_gui.egg-info/PKG-INFO
+[4.383s] writing dependency_links to ../../../build/ariac_gui/ariac_gui.egg-info/dependency_links.txt
+[4.383s] writing entry points to ../../../build/ariac_gui/ariac_gui.egg-info/entry_points.txt
+[4.384s] writing requirements to ../../../build/ariac_gui/ariac_gui.egg-info/requires.txt
+[4.384s] writing top-level names to ../../../build/ariac_gui/ariac_gui.egg-info/top_level.txt
+[4.385s] writing manifest file '../../../build/ariac_gui/ariac_gui.egg-info/SOURCES.txt'
+[4.432s] reading manifest file '../../../build/ariac_gui/ariac_gui.egg-info/SOURCES.txt'
+[4.433s] writing manifest file '../../../build/ariac_gui/ariac_gui.egg-info/SOURCES.txt'
+[4.433s] running build
+[4.434s] running build_py
+[4.434s] creating /home/shdh/enpm663_ws/build/ariac_gui/build
+[4.434s] creating /home/shdh/enpm663_ws/build/ariac_gui/build/lib
+[4.434s] creating /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.434s] copying ariac_gui/msgNames.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.434s] copying ariac_gui/gui_node.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.434s] copying ariac_gui/__init__.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.434s] copying ariac_gui/checkCancel.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.435s] copying ariac_gui/timeFunctions.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.435s] copying ariac_gui/newClasses.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.435s] copying ariac_gui/notebookConveyor.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.435s] copying ariac_gui/notebookBins.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.436s] copying ariac_gui/zeid_ariac_gui.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.436s] copying ariac_gui/notebookParts.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.436s] copying ariac_gui/newGui.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.436s] copying ariac_gui/notebookSetup.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.437s] copying ariac_gui/fileFunc.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.437s] copying ariac_gui/validationFunctions.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.437s] copying ariac_gui/notebookChallenges.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.437s] copying ariac_gui/updateRanges.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.437s] copying ariac_gui/notebookOrders.py -> /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui
+[4.438s] running install
+[4.439s] running install_lib
+[4.441s] creating /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.441s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/msgNames.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.441s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/gui_node.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.441s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/__init__.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.441s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/checkCancel.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.441s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/timeFunctions.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.442s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/newClasses.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.442s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/notebookConveyor.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.442s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/notebookBins.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.442s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/zeid_ariac_gui.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.442s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/notebookParts.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.443s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/newGui.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.443s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/notebookSetup.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.443s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/fileFunc.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.444s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/validationFunctions.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.444s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/notebookChallenges.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.444s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/updateRanges.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.444s] copying /home/shdh/enpm663_ws/build/ariac_gui/build/lib/ariac_gui/notebookOrders.py -> /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui
+[4.445s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/msgNames.py to msgNames.cpython-38.pyc
+[4.448s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/gui_node.py to gui_node.cpython-38.pyc
+[4.448s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/__init__.py to __init__.cpython-38.pyc
+[4.448s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/checkCancel.py to checkCancel.cpython-38.pyc
+[4.449s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/timeFunctions.py to timeFunctions.cpython-38.pyc
+[4.450s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/newClasses.py to newClasses.cpython-38.pyc
+[4.450s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/notebookConveyor.py to notebookConveyor.cpython-38.pyc
+[4.452s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/notebookBins.py to notebookBins.cpython-38.pyc
+[4.456s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/zeid_ariac_gui.py to zeid_ariac_gui.cpython-38.pyc
+[4.467s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/notebookParts.py to notebookParts.cpython-38.pyc
+[4.469s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/newGui.py to newGui.cpython-38.pyc
+[4.475s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/notebookSetup.py to notebookSetup.cpython-38.pyc
+[4.478s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/fileFunc.py to fileFunc.cpython-38.pyc
+[4.479s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/validationFunctions.py to validationFunctions.cpython-38.pyc
+[4.480s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/notebookChallenges.py to notebookChallenges.cpython-38.pyc
+[4.486s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/updateRanges.py to updateRanges.cpython-38.pyc
+[4.487s] byte-compiling /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui/notebookOrders.py to notebookOrders.cpython-38.pyc
+[4.492s] running install_data
+[4.493s] creating /home/shdh/enpm663_ws/install/ariac_gui/share/ament_index
+[4.493s] creating /home/shdh/enpm663_ws/install/ariac_gui/share/ament_index/resource_index
+[4.493s] creating /home/shdh/enpm663_ws/install/ariac_gui/share/ament_index/resource_index/packages
+[4.493s] copying resource/ariac_gui -> /home/shdh/enpm663_ws/install/ariac_gui/share/ament_index/resource_index/packages
+[4.494s] creating /home/shdh/enpm663_ws/install/ariac_gui/share/ariac_gui/resource
+[4.494s] copying resource/NIST_logo.png -> /home/shdh/enpm663_ws/install/ariac_gui/share/ariac_gui/resource
+[4.494s] copying package.xml -> /home/shdh/enpm663_ws/install/ariac_gui/share/ariac_gui
+[4.494s] running install_egg_info
+[4.496s] Copying ../../../build/ariac_gui/ariac_gui.egg-info to /home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages/ariac_gui-0.0.0-py3.8.egg-info
+[4.498s] running install_scripts
+[4.519s] Installing gui script to /home/shdh/enpm663_ws/install/ariac_gui/lib/ariac_gui
+[4.519s] Installing zeid_gui script to /home/shdh/enpm663_ws/install/ariac_gui/lib/ariac_gui
+[4.520s] writing list of installed files to '/home/shdh/enpm663_ws/build/ariac_gui/install.log'
+[4.544s] Invoked command in '/home/shdh/enpm663_ws/src/ariac/ariac_gui' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/build/ariac_gui/prefix_override:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ariac_gui build --build-base /home/shdh/enpm663_ws/build/ariac_gui/build install --record /home/shdh/enpm663_ws/build/ariac_gui/install.log --single-version-externally-managed

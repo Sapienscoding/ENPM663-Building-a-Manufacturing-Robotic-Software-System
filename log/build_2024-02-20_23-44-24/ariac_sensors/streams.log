@@ -1,0 +1,228 @@
+[1.750s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_sensors': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_sensors -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_sensors
+[1.807s] -- The C compiler identification is GNU 10.5.0
+[1.871s] -- The CXX compiler identification is GNU 10.5.0
+[1.877s] -- Check for working C compiler: /usr/bin/cc
+[1.957s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.958s] -- Detecting C compiler ABI info
+[2.039s] -- Detecting C compiler ABI info - done
+[2.066s] -- Detecting C compile features
+[2.067s] -- Detecting C compile features - done
+[2.072s] -- Check for working CXX compiler: /usr/bin/c++
+[2.187s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.189s] -- Detecting CXX compiler ABI info
+[2.301s] -- Detecting CXX compiler ABI info - done
+[2.335s] -- Detecting CXX compile features
+[2.336s] -- Detecting CXX compile features - done
+[2.342s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.380s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.381s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.544s] -- Found camera_info_manager: 2.5.1 (/opt/ros/galactic/share/camera_info_manager/cmake)
+[2.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.658s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.815s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.867s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.111s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.115s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.150s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.153s] -- Looking for pthread.h
+[3.248s] -- Looking for pthread.h - found
+[3.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.347s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.348s] -- Looking for pthread_create in pthreads
+[3.426s] -- Looking for pthread_create in pthreads - not found
+[3.427s] -- Looking for pthread_create in pthread
+[3.527s] -- Looking for pthread_create in pthread - found
+[3.529s] -- Found Threads: TRUE  
+[4.078s] -- Found gazebo_msgs: 3.5.2 (/opt/ros/galactic/share/gazebo_msgs/cmake)
+[4.364s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[4.381s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[4.383s] -- Checking for module 'bullet>=2.82'
+[4.406s] --   Found bullet, version 2.88
+[4.572s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[4.658s] -- Found fcl: /usr/include (found suitable version "0.6.1", minimum required is "0.3.2") 
+[4.739s] -- Found assimp: /usr/include (found version "5.0.0") 
+[4.771s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.811s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.835s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[4.844s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.852s] -- Searching for dependencies of ignition-math6
+[4.855s] -- Looking for OGRE...
+[4.855s] -- OGRE_PREFIX_WATCH changed.
+[4.862s] -- Checking for module 'OGRE'
+[4.884s] --   Found OGRE, version 1.9.0
+[4.940s] -- Found Ogre Ghadamon (1.9.0)
+[4.952s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.965s] -- Looking for OGRE_Paging...
+[4.975s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.975s] -- Looking for OGRE_Terrain...
+[4.985s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.985s] -- Looking for OGRE_Property...
+[4.994s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.995s] -- Looking for OGRE_RTShaderSystem...
+[5.005s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.005s] -- Looking for OGRE_Volume...
+[5.014s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.014s] -- Looking for OGRE_Overlay...
+[5.024s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.235s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.239s] -- Looking for ignition-transport8 -- found version 8.3.0
+[5.240s] -- Searching for dependencies of ignition-transport8
+[5.264s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[5.281s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.286s] -- Checking for module 'libzmq >= 4'
+[5.311s] --   Found libzmq , version 4.3.2
+[5.370s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.378s] -- Checking for module 'uuid'
+[5.401s] --   Found uuid, version 2.34.0
+[5.461s] -- Found UUID: TRUE  
+[5.465s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.465s] -- Searching for dependencies of ignition-msgs5
+[5.495s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.501s] -- Checking for module 'tinyxml2'
+[5.523s] --   Found tinyxml2, version 6.2.0
+[5.581s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.585s] -- Looking for ignition-common3 -- found version 3.14.2
+[5.586s] -- Searching for dependencies of ignition-common3
+[5.586s] -- Looking for dlfcn.h - found
+[5.588s] -- Looking for libdl - found
+[5.590s] -- Found DL: TRUE  
+[5.602s] -- Searching for <ignition-common3> component [graphics]
+[5.606s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[5.607s] -- Searching for dependencies of ignition-common3-graphics
+[5.608s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.613s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[5.613s] -- Searching for dependencies of ignition-fuel_tools4
+[5.728s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[5.739s] -- Checking for module 'jsoncpp'
+[5.761s] --   Found jsoncpp, version 1.7.4
+[5.818s] -- Found JSONCPP: TRUE  
+[5.825s] -- Checking for module 'libzip'
+[5.847s] --   Found libzip, version 1.5.1
+[5.902s] -- Found ZIP: TRUE  
+[5.903s] -- Looking for ignition-common3 -- found version 3.14.2
+[5.903s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.904s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.905s] -- Gazebo version: 11.11
+[5.914s] -- Found image_transport: 2.5.1 (/opt/ros/galactic/share/image_transport/cmake)
+[6.000s] -- Found cv_bridge: 3.1.3 (/opt/ros/galactic/share/cv_bridge/cmake)
+[6.040s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[6.136s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[6.152s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[6.166s] -- Found tf2_geometry_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[6.179s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[6.181s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[6.683s] -- Found ariac_msgs: 0.0.0 (/home/shdh/enpm663_ws/install/ariac_msgs/share/ariac_msgs/cmake)
+[7.089s] -- Configuring done
+[7.265s] -- Generating done
+[7.273s] -- Build files have been written to: /home/shdh/enpm663_ws/build/ariac_sensors
+[7.300s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_sensors' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_sensors -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_sensors
+[7.302s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_sensors': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_sensors -- -j12 -l12
+[7.440s] [35m[1mScanning dependencies of target AriacRayPlugin[0m
+[7.454s] [35m[1mScanning dependencies of target AGVTraySensorPlugin[0m
+[7.508s] [35m[1mScanning dependencies of target AriacCameraPlugin[0m
+[7.523s] [35m[1mScanning dependencies of target AssemblyStationSensorPlugin[0m
+[7.527s] [35m[1mScanning dependencies of target AriacLogicalCameraPlugin[0m
+[8.174s] [ 10%] [32mBuilding CXX object CMakeFiles/AriacRayPlugin.dir/src/ariac_ray_plugin.cpp.o[0m
+[8.237s] [ 20%] [32mBuilding CXX object CMakeFiles/AssemblyStationSensorPlugin.dir/src/assembly_station_sensor_plugin.cpp.o[0m
+[8.412s] [ 30%] [32mBuilding CXX object CMakeFiles/AriacLogicalCameraPlugin.dir/src/ariac_logical_camera_plugin.cpp.o[0m
+[8.466s] [ 40%] [32mBuilding CXX object CMakeFiles/AGVTraySensorPlugin.dir/src/agv_tray_sensor_plugin.cpp.o[0m
+[8.467s] [ 50%] [32mBuilding CXX object CMakeFiles/AriacCameraPlugin.dir/src/ariac_camera_plugin.cpp.o[0m
+[62.634s] [ 60%] [32m[1mLinking CXX shared library libAssemblyStationSensorPlugin.so[0m
+[63.821s] [ 70%] [32m[1mLinking CXX shared library libAriacLogicalCameraPlugin.so[0m
+[64.377s] [ 80%] [32m[1mLinking CXX shared library libAGVTraySensorPlugin.so[0m
+[64.660s] [ 80%] Built target AssemblyStationSensorPlugin
+[65.826s] [ 80%] Built target AriacLogicalCameraPlugin
+[65.919s] [ 80%] Built target AGVTraySensorPlugin
+[67.770s] [ 90%] [32m[1mLinking CXX shared library libAriacRayPlugin.so[0m
+[69.106s] [ 90%] Built target AriacRayPlugin
+[74.219s] [100%] [32m[1mLinking CXX shared library libAriacCameraPlugin.so[0m
+[75.081s] [100%] Built target AriacCameraPlugin
+[75.135s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_sensors' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_sensors -- -j12 -l12
+[75.195s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_sensors': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_sensors
+[75.204s] -- Install configuration: ""
+[75.205s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/environment/library_path.sh
+[75.205s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/environment/library_path.dsv
+[75.206s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ament_index/resource_index/package_run_dependencies/ariac_sensors
+[75.207s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ament_index/resource_index/parent_prefix_path/ariac_sensors
+[75.208s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/environment/ament_prefix_path.sh
+[75.208s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/environment/ament_prefix_path.dsv
+[75.208s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/environment/path.sh
+[75.208s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/environment/path.dsv
+[75.209s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/local_setup.bash
+[75.209s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/local_setup.sh
+[75.209s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/local_setup.zsh
+[75.209s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/local_setup.dsv
+[75.210s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/package.dsv
+[75.210s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ament_index/resource_index/packages/ariac_sensors
+[75.210s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/cmake/ament_cmake_export_libraries-extras.cmake
+[75.211s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/cmake/ariac_sensorsConfig.cmake
+[75.211s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/cmake/ariac_sensorsConfig-version.cmake
+[75.211s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors/package.xml
+[75.211s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/include
+[75.212s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/include/ariac_sensors
+[75.212s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/include/ariac_sensors/assembly_station_sensor_plugin.hpp
+[75.212s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/include/ariac_sensors/ariac_logical_camera_plugin.hpp
+[75.212s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/include/ariac_sensors/ariac_camera_plugin.hpp
+[75.212s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/include/ariac_sensors/ariac_ray_plugin.hpp
+[75.213s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/include/ariac_sensors/agv_tray_sensor_plugin.hpp
+[75.213s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/lib/libAGVTraySensorPlugin.so
+[75.221s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_sensors/lib/libAGVTraySensorPlugin.so" to ""
+[75.221s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/lib/libAssemblyStationSensorPlugin.so
+[75.228s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_sensors/lib/libAssemblyStationSensorPlugin.so" to ""
+[75.228s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/lib/libAriacRayPlugin.so
+[75.236s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_sensors/lib/libAriacRayPlugin.so" to ""
+[75.236s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/lib/libAriacCameraPlugin.so
+[75.243s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_sensors/lib/libAriacCameraPlugin.so" to ""
+[75.244s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/lib/libAriacLogicalCameraPlugin.so
+[75.251s] -- Set runtime path of "/home/shdh/enpm663_ws/install/ariac_sensors/lib/libAriacLogicalCameraPlugin.so" to ""
+[75.251s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models
+[75.251s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor
+[75.251s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor/model.sdf
+[75.252s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor/model.config
+[75.252s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler
+[75.252s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler/model.sdf
+[75.252s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler/model.config
+[75.252s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/proximity
+[75.252s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/proximity/model.sdf
+[75.253s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/proximity/model.config
+[75.253s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera
+[75.253s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/model.sdf
+[75.253s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/model.config
+[75.253s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/meshes
+[75.254s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/meshes/SR4000.stl
+[75.254s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera
+[75.254s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/model.sdf
+[75.254s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/model.config
+[75.255s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/meshes
+[75.255s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/meshes/SR4000.stl
+[75.255s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor
+[75.255s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor/model.sdf
+[75.256s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor/model.config
+[75.256s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/lidar
+[75.256s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/model.sdf
+[75.256s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/model.config
+[75.256s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/meshes
+[75.256s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/meshes/SR4000.stl
+[75.257s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera
+[75.257s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/materials
+[75.257s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/materials/textures
+[75.257s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/materials/textures/camera.png
+[75.259s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/model.sdf
+[75.259s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/model.config
+[75.259s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/meshes
+[75.259s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/meshes/camera.dae
+[75.259s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam
+[75.260s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/model.sdf
+[75.260s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/model.config
+[75.260s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/meshes
+[75.260s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/meshes/break_beam.dae
+[75.261s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera
+[75.261s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/materials
+[75.261s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/materials/textures
+[75.261s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/materials/textures/camera.png
+[75.262s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/model.sdf
+[75.263s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/model.config
+[75.263s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/meshes
+[75.263s] -- Installing: /home/shdh/enpm663_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/meshes/camera.dae
+[75.269s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_sensors' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_sensors

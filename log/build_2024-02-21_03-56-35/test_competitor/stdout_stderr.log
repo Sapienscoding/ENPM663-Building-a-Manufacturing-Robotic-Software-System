@@ -1,0 +1,49 @@
+[ 33%] Built target test_competitor
+[ 66%] Built target moveit_test
+[100%] Built target competitor
+-- Install configuration: ""
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/lib/test_competitor/competitor
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/lib/test_competitor/moveit_test
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/lib/libtest_competitor.so
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/include
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/include/test_competitor
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/include/test_competitor/test_competitor.hpp
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/config
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/config/sample.yaml
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/config/sensors.yaml
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/launch
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/launch/competitor.launch.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/launch/moveit_test.launch.py
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/kit_tray.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/sensor.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/regulator.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/battery.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/assembly_station.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/pump.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/bin.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/conveyor.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/assembly_insert.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/meshes/kit_tray_table.stl
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/rviz
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/rviz/test_competitor.rviz
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/library_path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/library_path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/ament_index/resource_index/package_run_dependencies/test_competitor
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/ament_index/resource_index/parent_prefix_path/test_competitor
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/path.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/environment/path.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/local_setup.bash
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/local_setup.sh
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/local_setup.zsh
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/local_setup.dsv
+-- Installing: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/package.dsv
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/ament_index/resource_index/packages/test_competitor
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/test_competitorConfig.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/cmake/test_competitorConfig-version.cmake
+-- Up-to-date: /home/shdh/enpm663_ws/install/test_competitor/share/test_competitor/package.xml

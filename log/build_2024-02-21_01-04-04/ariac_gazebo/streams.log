@@ -1,0 +1,21 @@
+[3.146s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_gazebo -- -j12 -l12
+[5.089s] Built target ament_cmake_python_copy_ariac_gazebo_setup
+[5.089s] Built target ament_cmake_python_copy_ariac_gazebo
+[5.089s] running install_scripts
+[5.089s] running egg_info
+[5.089s] writing ariac_gazebo.egg-info/PKG-INFO
+[5.089s] writing dependency_links to ariac_gazebo.egg-info/dependency_links.txt
+[5.090s] writing entry points to ariac_gazebo.egg-info/entry_points.txt
+[5.090s] writing top-level names to ariac_gazebo.egg-info/top_level.txt
+[5.090s] running egg_info
+[5.090s] writing ariac_gazebo.egg-info/PKG-INFO
+[5.090s] writing dependency_links to ariac_gazebo.egg-info/dependency_links.txt
+[5.090s] writing entry points to ariac_gazebo.egg-info/entry_points.txt
+[5.090s] writing top-level names to ariac_gazebo.egg-info/top_level.txt
+[5.090s] reading manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[5.090s] writing manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[5.090s] Installing spawner script to scripts
+[5.090s] reading manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[5.090s] writing manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[5.090s] Built target ament_cmake_python_build_ariac_gazebo_scripts
+[5.090s] Built target ament_cmake_python_build_ariac_gazebo_egg

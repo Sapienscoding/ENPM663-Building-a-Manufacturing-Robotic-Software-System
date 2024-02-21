@@ -1,0 +1,21 @@
+[7.012s] Invoking command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise1/prefix_override:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise1 build --build-base /home/shdh/enpm663_ws/build/exercise1/build install --record /home/shdh/enpm663_ws/build/exercise1/install.log --single-version-externally-managed
+[7.675s] running egg_info
+[7.675s] writing ../../../build/exercise1/exercise1.egg-info/PKG-INFO
+[7.676s] writing dependency_links to ../../../build/exercise1/exercise1.egg-info/dependency_links.txt
+[7.676s] writing entry points to ../../../build/exercise1/exercise1.egg-info/entry_points.txt
+[7.677s] writing requirements to ../../../build/exercise1/exercise1.egg-info/requires.txt
+[7.677s] writing top-level names to ../../../build/exercise1/exercise1.egg-info/top_level.txt
+[7.677s] reading manifest file '../../../build/exercise1/exercise1.egg-info/SOURCES.txt'
+[7.678s] writing manifest file '../../../build/exercise1/exercise1.egg-info/SOURCES.txt'
+[7.678s] running build
+[7.678s] running build_py
+[7.679s] running install
+[7.679s] running install_lib
+[7.679s] running install_data
+[7.680s] running install_egg_info
+[7.680s] removing '/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1-0.0.0-py3.8.egg-info' (and everything under it)
+[7.681s] Copying ../../../build/exercise1/exercise1.egg-info to /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1-0.0.0-py3.8.egg-info
+[7.681s] running install_scripts
+[7.681s] Installing ex1_demo script to /home/shdh/enpm663_ws/install/exercise1/lib/exercise1
+[7.682s] writing list of installed files to '/home/shdh/enpm663_ws/build/exercise1/install.log'
+[8.765s] Invoked command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1' returned '0': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise1/prefix_override:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise1 build --build-base /home/shdh/enpm663_ws/build/exercise1/build install --record /home/shdh/enpm663_ws/build/exercise1/install.log --single-version-externally-managed

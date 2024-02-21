@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/exercise1/exercise1.egg-info/PKG-INFO
+../../../build/exercise1/exercise1.egg-info/SOURCES.txt
+../../../build/exercise1/exercise1.egg-info/dependency_links.txt
+../../../build/exercise1/exercise1.egg-info/entry_points.txt
+../../../build/exercise1/exercise1.egg-info/requires.txt
+../../../build/exercise1/exercise1.egg-info/top_level.txt
+../../../build/exercise1/exercise1.egg-info/zip-safe
+exercise1/__init__.py
+exercise1/ex1_demo.py
+exercise1/ex1_interface.py
+resource/exercise1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

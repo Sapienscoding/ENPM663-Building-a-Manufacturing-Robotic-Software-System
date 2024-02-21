@@ -1,0 +1,33 @@
+[1.604s] Invoking command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise3/prefix_override:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise3 build --build-base /home/shdh/enpm663_ws/build/exercise3/build install --record /home/shdh/enpm663_ws/build/exercise3/install.log --single-version-externally-managed
+[1.813s] running egg_info
+[1.814s] writing ../../../build/exercise3/exercise3.egg-info/PKG-INFO
+[1.814s] writing dependency_links to ../../../build/exercise3/exercise3.egg-info/dependency_links.txt
+[1.814s] writing entry points to ../../../build/exercise3/exercise3.egg-info/entry_points.txt
+[1.814s] writing requirements to ../../../build/exercise3/exercise3.egg-info/requires.txt
+[1.814s] writing top-level names to ../../../build/exercise3/exercise3.egg-info/top_level.txt
+[1.843s] reading manifest file '../../../build/exercise3/exercise3.egg-info/SOURCES.txt'
+[1.843s] writing manifest file '../../../build/exercise3/exercise3.egg-info/SOURCES.txt'
+[1.844s] running build
+[1.844s] running build_py
+[1.844s] copying exercise3/ex3_pub_demo.py -> /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3
+[1.844s] copying exercise3/ex3_sub_interface.py -> /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3
+[1.844s] copying exercise3/ex3_pub_interface.py -> /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3
+[1.844s] copying exercise3/ex3_sub_demo.py -> /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3
+[1.844s] running install
+[1.845s] running install_lib
+[1.846s] copying /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3/ex3_pub_demo.py -> /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3
+[1.846s] copying /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3/ex3_sub_interface.py -> /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3
+[1.846s] copying /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3/ex3_pub_interface.py -> /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3
+[1.846s] copying /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3/ex3_sub_demo.py -> /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3
+[1.846s] byte-compiling /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3/ex3_pub_demo.py to ex3_pub_demo.cpython-38.pyc
+[1.848s] byte-compiling /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3/ex3_sub_interface.py to ex3_sub_interface.cpython-38.pyc
+[1.848s] byte-compiling /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3/ex3_pub_interface.py to ex3_pub_interface.cpython-38.pyc
+[1.848s] byte-compiling /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3/ex3_sub_demo.py to ex3_sub_demo.cpython-38.pyc
+[1.849s] running install_data
+[1.849s] running install_egg_info
+[1.851s] removing '/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3-0.0.0-py3.8.egg-info' (and everything under it)
+[1.851s] Copying ../../../build/exercise3/exercise3.egg-info to /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3-0.0.0-py3.8.egg-info
+[1.852s] running install_scripts
+[1.866s] Installing ex3_pub = exercise3.ex3_pub_demo:mainex3_sub script to /home/shdh/enpm663_ws/install/exercise3/lib/exercise3
+[1.866s] writing list of installed files to '/home/shdh/enpm663_ws/build/exercise3/install.log'
+[1.881s] Invoked command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3' returned '0': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise3/prefix_override:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise3 build --build-base /home/shdh/enpm663_ws/build/exercise3/build install --record /home/shdh/enpm663_ws/build/exercise3/install.log --single-version-externally-managed

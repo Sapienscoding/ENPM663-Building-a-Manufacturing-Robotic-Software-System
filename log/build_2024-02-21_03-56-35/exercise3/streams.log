@@ -1,0 +1,23 @@
+[4.290s] Invoking command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise3/prefix_override:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise3 build --build-base /home/shdh/enpm663_ws/build/exercise3/build install --record /home/shdh/enpm663_ws/build/exercise3/install.log --single-version-externally-managed
+[4.639s] running egg_info
+[4.640s] writing ../../../build/exercise3/exercise3.egg-info/PKG-INFO
+[4.641s] writing dependency_links to ../../../build/exercise3/exercise3.egg-info/dependency_links.txt
+[4.642s] writing entry points to ../../../build/exercise3/exercise3.egg-info/entry_points.txt
+[4.642s] writing requirements to ../../../build/exercise3/exercise3.egg-info/requires.txt
+[4.643s] writing top-level names to ../../../build/exercise3/exercise3.egg-info/top_level.txt
+[4.682s] reading manifest file '../../../build/exercise3/exercise3.egg-info/SOURCES.txt'
+[4.683s] writing manifest file '../../../build/exercise3/exercise3.egg-info/SOURCES.txt'
+[4.683s] running build
+[4.684s] running build_py
+[4.684s] running install
+[4.685s] running install_lib
+[4.685s] running install_data
+[4.686s] copying package.xml -> /home/shdh/enpm663_ws/install/exercise3/share/exercise3
+[4.686s] running install_egg_info
+[4.688s] removing '/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3-0.0.0-py3.8.egg-info' (and everything under it)
+[4.691s] Copying ../../../build/exercise3/exercise3.egg-info to /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3-0.0.0-py3.8.egg-info
+[4.692s] running install_scripts
+[4.726s] Installing ex3_pub_demo script to /home/shdh/enpm663_ws/install/exercise3/lib/exercise3
+[4.727s] Installing ex3_sub_demo script to /home/shdh/enpm663_ws/install/exercise3/lib/exercise3
+[4.727s] writing list of installed files to '/home/shdh/enpm663_ws/build/exercise3/install.log'
+[5.639s] Invoked command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3' returned '0': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise3/prefix_override:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise3 build --build-base /home/shdh/enpm663_ws/build/exercise3/build install --record /home/shdh/enpm663_ws/build/exercise3/install.log --single-version-externally-managed

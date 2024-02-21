@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages",
+        "/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}

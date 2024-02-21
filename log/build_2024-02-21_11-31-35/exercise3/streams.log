@@ -1,0 +1,25 @@
+[6.109s] Invoking command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise3/prefix_override:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise3 build --build-base /home/shdh/enpm663_ws/build/exercise3/build install --record /home/shdh/enpm663_ws/build/exercise3/install.log --single-version-externally-managed
+[6.520s] running egg_info
+[6.521s] writing ../../../build/exercise3/exercise3.egg-info/PKG-INFO
+[6.522s] writing dependency_links to ../../../build/exercise3/exercise3.egg-info/dependency_links.txt
+[6.522s] writing entry points to ../../../build/exercise3/exercise3.egg-info/entry_points.txt
+[6.523s] writing requirements to ../../../build/exercise3/exercise3.egg-info/requires.txt
+[6.524s] writing top-level names to ../../../build/exercise3/exercise3.egg-info/top_level.txt
+[6.581s] reading manifest file '../../../build/exercise3/exercise3.egg-info/SOURCES.txt'
+[6.582s] writing manifest file '../../../build/exercise3/exercise3.egg-info/SOURCES.txt'
+[6.582s] running build
+[6.584s] running build_py
+[6.589s] copying exercise3/ex3_sub_interface.py -> /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3
+[6.590s] running install
+[6.590s] running install_lib
+[6.591s] copying /home/shdh/enpm663_ws/build/exercise3/build/lib/exercise3/ex3_sub_interface.py -> /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3
+[6.592s] byte-compiling /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3/ex3_sub_interface.py to ex3_sub_interface.cpython-38.pyc
+[6.592s] running install_data
+[6.593s] running install_egg_info
+[6.593s] removing '/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3-0.0.0-py3.8.egg-info' (and everything under it)
+[6.594s] Copying ../../../build/exercise3/exercise3.egg-info to /home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages/exercise3-0.0.0-py3.8.egg-info
+[6.595s] running install_scripts
+[6.615s] Installing ex3_pub_demo script to /home/shdh/enpm663_ws/install/exercise3/lib/exercise3
+[6.615s] Installing ex3_sub_demo script to /home/shdh/enpm663_ws/install/exercise3/lib/exercise3
+[6.615s] writing list of installed files to '/home/shdh/enpm663_ws/build/exercise3/install.log'
+[8.797s] Invoked command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise3' returned '0': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise3/prefix_override:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise3 build --build-base /home/shdh/enpm663_ws/build/exercise3/build install --record /home/shdh/enpm663_ws/build/exercise3/install.log --single-version-externally-managed

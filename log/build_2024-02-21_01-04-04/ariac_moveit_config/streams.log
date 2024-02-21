@@ -1,0 +1,17 @@
+[2.690s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_moveit_config -- -j12 -l12
+[4.630s] Built target ament_cmake_python_copy_ariac_moveit_config
+[4.630s] running install_scripts
+[4.630s] running egg_info
+[4.630s] writing ariac_moveit_config.egg-info/PKG-INFO
+[4.630s] writing dependency_links to ariac_moveit_config.egg-info/dependency_links.txt
+[4.630s] writing top-level names to ariac_moveit_config.egg-info/top_level.txt
+[4.630s] running egg_info
+[4.630s] writing ariac_moveit_config.egg-info/PKG-INFO
+[4.630s] writing dependency_links to ariac_moveit_config.egg-info/dependency_links.txt
+[4.631s] writing top-level names to ariac_moveit_config.egg-info/top_level.txt
+[4.631s] reading manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+[4.631s] writing manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+[4.631s] reading manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+[4.631s] writing manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+[4.631s] Built target ament_cmake_python_build_ariac_moveit_config_egg
+[4.631s] Built target ament_cmake_python_build_ariac_moveit_config_scripts

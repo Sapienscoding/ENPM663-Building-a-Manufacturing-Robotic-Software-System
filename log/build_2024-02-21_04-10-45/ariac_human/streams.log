@@ -1,0 +1,83 @@
+[3.101s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_human': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_human -- -j12 -l12
+[3.188s] Built target ament_cmake_python_copy_ariac_human_setup
+[3.199s] Built target ament_cmake_python_copy_ariac_human
+[3.592s] running egg_info
+[3.592s] writing ariac_human.egg-info/PKG-INFO
+[3.592s] writing dependency_links to ariac_human.egg-info/dependency_links.txt
+[3.593s] writing top-level names to ariac_human.egg-info/top_level.txt
+[3.596s] running install_scripts
+[3.616s] running egg_info
+[3.619s] writing ariac_human.egg-info/PKG-INFO
+[3.619s] writing dependency_links to ariac_human.egg-info/dependency_links.txt
+[3.620s] writing top-level names to ariac_human.egg-info/top_level.txt
+[3.631s] reading manifest file 'ariac_human.egg-info/SOURCES.txt'
+[3.631s] writing manifest file 'ariac_human.egg-info/SOURCES.txt'
+[3.657s] reading manifest file 'ariac_human.egg-info/SOURCES.txt'
+[3.657s] writing manifest file 'ariac_human.egg-info/SOURCES.txt'
+[3.657s] Built target ament_cmake_python_build_ariac_human_egg
+[3.683s] Built target ament_cmake_python_build_ariac_human_scripts
+[3.990s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_human' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_human -- -j12 -l12
+[5.927s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_human': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_human
+[5.935s] -- Install configuration: ""
+[5.936s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent
+[5.936s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/helpful.mas2j
+[5.937s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/build.gradle
+[5.937s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradlew.bat
+[5.938s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradle
+[5.939s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradle/wrapper
+[5.939s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradle/wrapper/gradle-wrapper.properties
+[5.939s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradle/wrapper/gradle-wrapper.jar
+[5.941s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/runAriac_Human.sh
+[5.941s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/lib
+[5.942s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/lib/java_rosbridge_all.jar
+[5.942s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/logging.properties
+[5.942s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/indifferent.mas2j
+[5.943s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src
+[5.943s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl
+[5.943s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl/human.asl
+[5.944s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl/antagonistic.asl
+[5.944s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl/indifferent.asl
+[5.944s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/asl/helpful.asl
+[5.945s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/java
+[5.945s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/src/java/RosEnv.java
+[5.946s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/gradlew
+[5.946s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//agent/antagonistic.mas2j
+[5.947s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//launch
+[5.947s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//launch/human.launch.py
+[5.947s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//config
+[5.948s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//config/human_params.yaml
+[5.948s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//map
+[5.948s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//map/ariac_map.pgm
+[5.949s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//map/ariac_map.yaml
+[5.949s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//rviz
+[5.949s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human//rviz/navigation.rviz
+[5.950s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/agent/gradlew
+[5.950s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/pythonpath.sh
+[5.950s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/pythonpath.dsv
+[5.951s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info
+[5.951s] -- Installing: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info/PKG-INFO
+[5.952s] -- Installing: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info/top_level.txt
+[5.952s] -- Installing: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info/SOURCES.txt
+[5.952s] -- Installing: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages//ariac_human.egg-info/dependency_links.txt
+[5.952s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/ariac_human/
+[5.953s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages/ariac_human
+[5.953s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages/ariac_human/__init__.py
+[5.953s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages/ariac_human/human_control.py
+[5.970s] Listing '/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages/ariac_human'...
+[5.973s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/lib/ariac_human/human_control_node.py
+[5.974s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ament_index/resource_index/package_run_dependencies/ariac_human
+[5.974s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ament_index/resource_index/parent_prefix_path/ariac_human
+[5.974s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/ament_prefix_path.sh
+[5.974s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/ament_prefix_path.dsv
+[5.974s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/path.sh
+[5.975s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/environment/path.dsv
+[5.975s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/local_setup.bash
+[5.976s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/local_setup.sh
+[5.976s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/local_setup.zsh
+[5.976s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/local_setup.dsv
+[5.976s] -- Installing: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/package.dsv
+[5.977s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ament_index/resource_index/packages/ariac_human
+[5.977s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/cmake/ariac_humanConfig.cmake
+[5.977s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/cmake/ariac_humanConfig-version.cmake
+[5.977s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_human/share/ariac_human/package.xml
+[7.090s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_human' returned '0': CMAKE_PREFIX_PATH=/home/shdh/enpm663_ws/install/ariac_msgs:/home/shdh/enpm663_ws/install/test_competitor:/home/shdh/enpm663_ws/install/first_package:/home/shdh/enpm663_ws/install/ariac_sensors:/home/shdh/enpm663_ws/install/ariac_plugins:/home/shdh/enpm663_ws/install/ariac_human:/home/shdh/enpm663_ws/install/ariac_moveit_config:/home/shdh/enpm663_ws/install/ariac_gazebo:/home/shdh/enpm663_ws/install/ariac_description:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic LD_LIBRARY_PATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib:/home/shdh/enpm663_ws/install/test_competitor/lib:/home/shdh/enpm663_ws/install/ariac_sensors/lib:/home/shdh/enpm663_ws/install/ariac_plugins/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/shdh/enpm663_ws/install/ariac_msgs/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/first_package/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise3/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise2/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_human/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gui/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages:/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_human

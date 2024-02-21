@@ -1,0 +1,58 @@
+[3.007s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_moveit_config -- -j12 -l12
+[5.604s] Built target ament_cmake_python_copy_ariac_moveit_config
+[5.604s] running install_scripts
+[5.605s] running egg_info
+[5.605s] writing ariac_moveit_config.egg-info/PKG-INFO
+[5.606s] writing dependency_links to ariac_moveit_config.egg-info/dependency_links.txt
+[5.607s] writing top-level names to ariac_moveit_config.egg-info/top_level.txt
+[5.610s] running egg_info
+[5.613s] writing ariac_moveit_config.egg-info/PKG-INFO
+[5.614s] writing dependency_links to ariac_moveit_config.egg-info/dependency_links.txt
+[5.615s] writing top-level names to ariac_moveit_config.egg-info/top_level.txt
+[5.615s] reading manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+[5.616s] writing manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+[5.620s] Built target ament_cmake_python_build_ariac_moveit_config_egg
+[5.621s] reading manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+[5.623s] writing manifest file 'ariac_moveit_config.egg-info/SOURCES.txt'
+[5.624s] Built target ament_cmake_python_build_ariac_moveit_config_scripts
+[5.627s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_moveit_config -- -j12 -l12
+[5.706s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_moveit_config
+[5.742s] -- Install configuration: ""
+[5.742s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/config
+[5.742s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/controllers.yaml
+[5.742s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/ompl_planning.yaml
+[5.743s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/kinematics.yaml
+[5.743s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/launch
+[5.743s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/launch/ariac_robots_moveit.launch.py
+[5.743s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/srdf
+[5.743s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/srdf/ariac_robots.srdf
+[5.743s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/rviz
+[5.743s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/rviz/moveit.rviz
+[5.744s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/pythonpath.sh
+[5.744s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/pythonpath.dsv
+[5.744s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info
+[5.744s] -- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info/PKG-INFO
+[5.745s] -- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info/top_level.txt
+[5.779s] -- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info/SOURCES.txt
+[5.781s] -- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages//ariac_moveit_config.egg-info/dependency_links.txt
+[5.781s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/ariac_moveit_config/
+[5.782s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config
+[5.783s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config/__init__.py
+[5.787s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config/parameters.py
+[5.851s] Listing '/home/shdh/enpm663_ws/install/ariac_moveit_config/lib/python3.8/site-packages/ariac_moveit_config'...
+[5.851s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ament_index/resource_index/package_run_dependencies/ariac_moveit_config
+[5.851s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ament_index/resource_index/parent_prefix_path/ariac_moveit_config
+[5.851s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/ament_prefix_path.sh
+[5.852s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/ament_prefix_path.dsv
+[5.852s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/path.sh
+[5.853s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/path.dsv
+[5.854s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.bash
+[5.854s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.sh
+[5.854s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.zsh
+[5.854s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.dsv
+[5.854s] -- Installing: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.dsv
+[5.854s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ament_index/resource_index/packages/ariac_moveit_config
+[5.855s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/cmake/ariac_moveit_configConfig.cmake
+[5.855s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/cmake/ariac_moveit_configConfig-version.cmake
+[5.855s] -- Up-to-date: /home/shdh/enpm663_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.xml
+[6.624s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_moveit_config

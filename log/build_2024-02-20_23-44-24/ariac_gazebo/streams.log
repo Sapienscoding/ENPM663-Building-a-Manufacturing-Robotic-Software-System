@@ -1,0 +1,443 @@
+[3.249s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_gazebo -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_gazebo
+[5.863s] -- The C compiler identification is GNU 10.5.0
+[5.863s] -- The CXX compiler identification is GNU 10.5.0
+[5.864s] -- Check for working C compiler: /usr/bin/cc
+[5.865s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.865s] -- Detecting C compiler ABI info
+[5.865s] -- Detecting C compiler ABI info - done
+[5.865s] -- Detecting C compile features
+[5.866s] -- Detecting C compile features - done
+[5.869s] -- Check for working CXX compiler: /usr/bin/c++
+[5.869s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.869s] -- Detecting CXX compiler ABI info
+[5.869s] -- Detecting CXX compiler ABI info - done
+[5.870s] -- Detecting CXX compile features
+[5.872s] -- Detecting CXX compile features - done
+[5.872s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[5.872s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.872s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.872s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[5.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.872s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.872s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.873s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.873s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.873s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[5.873s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[5.873s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.873s] -- Looking for pthread.h
+[5.873s] -- Looking for pthread.h - found
+[5.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.874s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[5.874s] -- Looking for pthread_create in pthreads
+[5.874s] -- Looking for pthread_create in pthreads - not found
+[5.874s] -- Looking for pthread_create in pthread
+[5.874s] -- Looking for pthread_create in pthread - found
+[5.874s] -- Found Threads: TRUE  
+[5.874s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[5.875s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[5.875s] -- Checking for module 'bullet>=2.82'
+[5.875s] --   Found bullet, version 2.88
+[5.875s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[5.875s] -- Found fcl: /usr/include (found suitable version "0.6.1", minimum required is "0.3.2") 
+[5.875s] -- Found assimp: /usr/include (found version "5.0.0") 
+[5.875s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[5.876s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[5.876s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[5.876s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.876s] -- Searching for dependencies of ignition-math6
+[5.876s] -- Looking for OGRE...
+[5.876s] -- OGRE_PREFIX_WATCH changed.
+[5.876s] -- Checking for module 'OGRE'
+[5.877s] --   Found OGRE, version 1.9.0
+[5.877s] -- Found Ogre Ghadamon (1.9.0)
+[5.877s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.877s] -- Looking for OGRE_Paging...
+[5.877s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.877s] -- Looking for OGRE_Terrain...
+[5.877s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.878s] -- Looking for OGRE_Property...
+[5.878s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.878s] -- Looking for OGRE_RTShaderSystem...
+[5.878s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.878s] -- Looking for OGRE_Volume...
+[5.878s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.879s] -- Looking for OGRE_Overlay...
+[5.882s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.882s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.882s] -- Looking for ignition-transport8 -- found version 8.3.0
+[5.883s] -- Searching for dependencies of ignition-transport8
+[5.883s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[5.883s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.883s] -- Checking for module 'libzmq >= 4'
+[5.883s] --   Found libzmq , version 4.3.2
+[5.883s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.884s] -- Checking for module 'uuid'
+[5.884s] --   Found uuid, version 2.34.0
+[5.884s] -- Found UUID: TRUE  
+[5.884s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.884s] -- Searching for dependencies of ignition-msgs5
+[5.884s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.884s] -- Checking for module 'tinyxml2'
+[5.884s] --   Found tinyxml2, version 6.2.0
+[5.885s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[5.885s] -- Looking for ignition-common3 -- found version 3.14.2
+[5.885s] -- Searching for dependencies of ignition-common3
+[5.885s] -- Looking for dlfcn.h - found
+[5.885s] -- Looking for libdl - found
+[5.885s] -- Found DL: TRUE  
+[5.885s] -- Searching for <ignition-common3> component [graphics]
+[5.885s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[5.886s] -- Searching for dependencies of ignition-common3-graphics
+[5.886s] -- Looking for ignition-math6 -- found version 6.15.1
+[5.886s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[5.886s] -- Searching for dependencies of ignition-fuel_tools4
+[5.891s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[5.891s] -- Checking for module 'jsoncpp'
+[5.923s] --   Found jsoncpp, version 1.7.4
+[6.016s] -- Found JSONCPP: TRUE  
+[6.041s] -- Checking for module 'libzip'
+[6.090s] --   Found libzip, version 1.5.1
+[6.172s] -- Found ZIP: TRUE  
+[6.174s] -- Looking for ignition-common3 -- found version 3.14.2
+[6.174s] -- Looking for ignition-math6 -- found version 6.15.1
+[6.174s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[6.177s] -- Found gazebo_ros: 3.5.2 (/opt/ros/galactic/share/gazebo_ros/cmake)
+[6.195s] -- Gazebo version: 11.11
+[6.486s] -- Configuring done
+[6.511s] -- Generating done
+[6.512s] -- Build files have been written to: /home/shdh/enpm663_ws/build/ariac_gazebo
+[6.870s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake /home/shdh/enpm663_ws/src/ariac/ariac_gazebo -DCMAKE_INSTALL_PREFIX=/home/shdh/enpm663_ws/install/ariac_gazebo
+[6.871s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_gazebo -- -j12 -l12
+[7.001s] [35m[1mScanning dependencies of target ament_cmake_python_copy_ariac_gazebo[0m
+[7.001s] [35m[1mScanning dependencies of target ament_cmake_python_copy_ariac_gazebo_setup[0m
+[7.044s] Built target ament_cmake_python_copy_ariac_gazebo_setup
+[7.050s] Built target ament_cmake_python_copy_ariac_gazebo
+[7.069s] [35m[1mScanning dependencies of target ament_cmake_python_build_ariac_gazebo_egg[0m
+[7.069s] [35m[1mScanning dependencies of target ament_cmake_python_build_ariac_gazebo_scripts[0m
+[7.566s] running egg_info
+[7.568s] creating ariac_gazebo.egg-info
+[7.569s] writing ariac_gazebo.egg-info/PKG-INFO
+[7.569s] writing dependency_links to ariac_gazebo.egg-info/dependency_links.txt
+[7.569s] writing entry points to ariac_gazebo.egg-info/entry_points.txt
+[7.570s] writing top-level names to ariac_gazebo.egg-info/top_level.txt
+[7.572s] writing manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[7.611s] running install_scripts
+[7.650s] reading manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[7.653s] writing manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[7.664s] running egg_info
+[7.664s] writing ariac_gazebo.egg-info/PKG-INFO
+[7.665s] writing dependency_links to ariac_gazebo.egg-info/dependency_links.txt
+[7.665s] writing entry points to ariac_gazebo.egg-info/entry_points.txt
+[7.666s] writing top-level names to ariac_gazebo.egg-info/top_level.txt
+[7.690s] Built target ament_cmake_python_build_ariac_gazebo_egg
+[7.728s] reading manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[7.729s] writing manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+[7.730s] Installing spawner script to scripts
+[7.774s] Built target ament_cmake_python_build_ariac_gazebo_scripts
+[9.057s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --build /home/shdh/enpm663_ws/build/ariac_gazebo -- -j12 -l12
+[10.722s] Invoking command in '/home/shdh/enpm663_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_gazebo
+[10.749s] -- Install configuration: ""
+[10.750s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config
+[10.751s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/ariac.rviz
+[10.752s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/object_poses.yaml
+[10.753s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials
+[10.754s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/human_assembly.yaml
+[10.754s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/faulty_gripper_sample.yaml
+[10.754s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/combined.yaml
+[10.755s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/sample.yaml
+[10.755s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/kitting.yaml
+[10.756s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/drop_challenge.yaml
+[10.756s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/tutorial.yaml
+[10.756s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/assembly.yaml
+[10.757s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/kitting_assembly.yaml
+[10.757s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/human_kitting.yaml
+[10.757s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/kitting_combined.yaml
+[10.758s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/launch
+[10.758s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/launch/ariac.launch.py
+[10.758s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models
+[10.759s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor
+[10.759s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/model.sdf
+[10.760s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/model.config
+[10.760s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/meshes
+[10.761s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/meshes/floor.dae
+[10.761s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/meshes/Suede_Blue.jpg
+[10.761s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac
+[10.761s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/materials
+[10.762s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/materials/textures
+[10.762s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/materials/textures/open_box.png
+[10.762s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/model.sdf
+[10.763s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/model.config
+[10.763s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/meshes
+[10.763s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/meshes/open_box.mtl
+[10.764s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer
+[10.764s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/model.sdf
+[10.764s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/model.config
+[10.764s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes
+[10.765s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/AM200_035_03_Diffuse.jpg
+[10.769s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/computer.dae
+[10.802s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/AM200_035_05_Diffuse.jpg
+[10.802s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/AM200_035_04_Diffuse.jpg
+[10.802s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/AM200_035_06_Diffuse.jpg
+[10.814s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf
+[10.814s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/model.sdf
+[10.814s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/model.config
+[10.815s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes
+[10.815s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/factory_shelf.dae
+[10.834s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/AM200_026_02_Diffuse.jpg
+[10.841s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/AM200_026_03_Diffuse.jpg
+[10.845s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/AM200_026_01_Diffuse.jpg
+[10.855s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/AM200_026_04_Diffuse.jpg
+[10.864s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3
+[10.865s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/model.sdf
+[10.865s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/model.config
+[10.866s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes
+[10.867s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/AM200_029_08_Diffuse.jpg
+[10.875s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/box_pallet.dae
+[10.884s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/AM200_029_03_Diffuse.jpg
+[10.897s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/AM200_029_01_Diffuse.jpg
+[10.908s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/AM200_029_04_Diffuse.jpg
+[10.909s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt
+[10.910s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/model.sdf
+[10.911s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/model.config
+[10.911s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes
+[10.911s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/TilesPlain0213_1_S.jpg
+[10.911s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/conveyor.dae
+[10.912s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/HighVoltage.jpg.001.jpg
+[10.913s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/compressedAirWarning.png
+[10.913s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/conveyor.stl
+[10.914s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/MetalBareSpecularMap.png
+[10.916s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/conveyor_nobase.dae
+[10.916s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/dropped_part_bin
+[10.916s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/dropped_part_bin/model.sdf
+[10.916s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/dropped_part_bin/model.config
+[10.917s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/dropped_part_bin/meshes
+[10.918s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/dropped_part_bin/meshes/disposal_bin.stl
+[10.918s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path
+[10.918s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/model.sdf
+[10.918s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/model.config
+[10.918s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/meshes
+[10.919s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/meshes/path.dae
+[10.919s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/meshes/__auto_.png
+[10.925s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin
+[10.925s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/model.sdf
+[10.925s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/model.config
+[10.926s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes
+[10.926s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/bin_exterior.stl
+[10.926s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/bin_exterior.dae
+[10.928s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/Metal_Rough.jpg.001.jpg
+[10.928s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/Steel_Brushed_Stainless.jpg.001.jpg
+[10.929s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/bin_interior.stl
+[10.930s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2
+[10.930s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/model.sdf
+[10.930s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/model.config
+[10.931s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes
+[10.931s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes/box_pallet.dae
+[10.935s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes/AM200_029_05_Diffuse.jpg
+[10.936s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes/AM200_029_06_Diffuse.jpg
+[10.941s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes/AM200_029_01_Diffuse.jpg
+[10.949s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse
+[10.950s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/model.sdf
+[10.950s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/model.config
+[10.951s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes
+[10.951s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes/warehouse.dae
+[10.951s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes/Brick_Tumbled.jpg
+[10.953s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes/roof.stl
+[10.954s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes/tape.stl
+[10.954s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/workcell_shelf
+[10.954s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/workcell_shelf/model.sdf
+[10.954s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/workcell_shelf/model.config
+[10.954s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/workcell_shelf/meshes
+[10.954s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/workcell_shelf/meshes/shelf.dae
+[10.955s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table
+[10.955s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/model.sdf
+[10.955s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/model.config
+[10.955s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes
+[10.955s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/kit_tray_table.dae
+[10.955s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/tool_changer_2.stl
+[10.956s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/tool_changer_1.stl
+[10.956s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/table_collision.stl
+[10.956s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/kit_tray_table.stl
+[10.956s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/Metal_Rough.jpg
+[10.956s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human
+[10.957s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/materials
+[10.957s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/materials/textures
+[10.957s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/materials/textures/ariac_LOGO.png
+[10.957s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/materials/textures/bob.png
+[10.957s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/materials/textures/nist-logo.png
+[10.957s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/model.sdf
+[10.958s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/model.config
+[10.958s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/meshes
+[10.958s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/meshes/lds.dae
+[10.958s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/meshes/tire.dae
+[10.959s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/meshes/waffle_base.dae
+[10.959s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/human/meshes/ARIACPerson.dae
+[10.966s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor
+[10.967s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/model.sdf
+[10.968s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/model.config
+[10.969s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/meshes
+[10.969s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/meshes/sensor_collision.stl
+[10.969s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/meshes/sensor_peg.stl
+[10.969s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/meshes/sensor_base.stl
+[10.969s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery
+[10.970s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/model.sdf
+[10.970s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/model.config
+[10.970s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes
+[10.971s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes/battery_cap.stl
+[10.971s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes/battery_collision.stl
+[10.971s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes/battery_pins.stl
+[10.972s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes/battery_base.stl
+[10.972s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table
+[10.973s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/model.sdf
+[10.973s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/model.config
+[10.973s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes
+[10.973s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/tape_outline.stl
+[10.974s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/leg4.stl
+[10.975s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/assembly_table_collision.stl
+[10.976s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/table_top.stl
+[10.976s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/leg3.stl
+[10.976s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/leg2.stl
+[10.976s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/leg1.stl
+[10.976s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2
+[10.977s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/model.sdf
+[10.977s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/model.config
+[10.977s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes
+[10.977s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes/AM200_035_02_Diffuse.jpg
+[10.981s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes/AM200_035_03_Diffuse.jpg
+[10.985s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes/computer.dae
+[10.998s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes/AM200_035_01_Diffuse.jpg
+[11.022s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator
+[11.022s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/model.sdf
+[11.023s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/model.config
+[11.023s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes
+[11.023s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes/regulator_base.stl
+[11.023s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes/regulator_collision.stl
+[11.024s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes/regulator_long_peg.stl
+[11.027s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes/regulator_short_peg.stl
+[11.027s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets
+[11.028s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/model.sdf
+[11.028s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/model.config
+[11.028s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes
+[11.028s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes/AM200_029_07_Diffuse.jpg
+[11.038s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes/box_pallet.dae
+[11.051s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes/AM200_029_02_Diffuse.jpg
+[11.052s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes/AM200_029_01_Diffuse.jpg
+[11.062s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory
+[11.063s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/model.sdf
+[11.063s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/model.config
+[11.063s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes
+[11.063s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_09_Diffuse.jpg
+[11.064s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_06_Diffuse.jpg
+[11.077s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_04_Diffuse.jpg
+[11.092s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/cage.dae
+[11.106s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_01_Diffuse.jpg
+[11.107s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_02_Diffuse.jpg
+[11.109s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_07_Diffuse.jpg
+[11.120s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump
+[11.120s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/model.sdf
+[11.120s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/model.config
+[11.121s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes
+[11.121s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_top_pane.stl
+[11.121s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_front_pane.stl
+[11.121s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_right_pane.stl
+[11.121s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_left_pane.stl
+[11.123s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_bottom_pane.stl
+[11.123s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_back_pane.stl
+[11.124s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_base.stl
+[11.126s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_collision.stl
+[11.126s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_enclosure.stl
+[11.126s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray
+[11.127s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/model.sdf
+[11.127s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/model.config
+[11.127s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes
+[11.128s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/tray_collision.stl
+[11.128s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/tape.stl
+[11.136s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/tray_base.stl
+[11.136s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers
+[11.137s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_04.png
+[11.137s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_09.dae
+[11.137s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_06.png
+[11.138s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_03.dae
+[11.138s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_09.png
+[11.139s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_06.dae
+[11.139s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_02.dae
+[11.139s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_01.dae
+[11.139s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_07.png
+[11.140s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_05.dae
+[11.140s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_05.png
+[11.140s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_08.png
+[11.140s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_04.dae
+[11.141s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_08.dae
+[11.141s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_07.dae
+[11.141s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_00.png
+[11.141s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_00.dae
+[11.142s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_02.png
+[11.142s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_03.png
+[11.145s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_01.png
+[11.145s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert
+[11.146s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/model.sdf
+[11.146s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/model.config
+[11.147s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes
+[11.147s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/pump_contact.stl
+[11.147s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/battery_contact.stl
+[11.147s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/insert_base.stl
+[11.147s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/regulator_contact.stl
+[11.148s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/insert_collision.stl
+[11.149s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/hardware.stl
+[11.151s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/screen.stl
+[11.151s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/mounts.stl
+[11.152s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/pipe_1.stl
+[11.153s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/sensor_contact.stl
+[11.153s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/pipe_2.stl
+[11.154s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/disposal_bin
+[11.154s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/disposal_bin/model.sdf
+[11.154s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/disposal_bin/model.config
+[11.155s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/disposal_bin/meshes
+[11.155s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/models/disposal_bin/meshes/disposal_bin.stl
+[11.155s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/worlds
+[11.157s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/worlds/ariac.world
+[11.158s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/environment/pythonpath.sh
+[11.158s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/environment/pythonpath.dsv
+[11.158s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages//ariac_gazebo.egg-info
+[11.159s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages//ariac_gazebo.egg-info/PKG-INFO
+[11.159s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages//ariac_gazebo.egg-info/entry_points.txt
+[11.159s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages//ariac_gazebo.egg-info/top_level.txt
+[11.159s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages//ariac_gazebo.egg-info/SOURCES.txt
+[11.159s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages//ariac_gazebo.egg-info/dependency_links.txt
+[11.159s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/ariac_gazebo/
+[11.160s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/ariac_gazebo//spawner
+[11.160s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo
+[11.161s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/__init__.py
+[11.161s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/environment_startup.py
+[11.161s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/tf_broadcaster.py
+[11.161s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/tf2_geometry_msgs.py
+[11.161s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/utilities.py
+[11.161s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/spawn_params.py
+[11.268s] Listing '/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo'...
+[11.268s] Compiling '/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/__init__.py'...
+[11.268s] Compiling '/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/environment_startup.py'...
+[11.269s] Compiling '/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/spawn_params.py'...
+[11.269s] Compiling '/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/tf2_geometry_msgs.py'...
+[11.269s] Compiling '/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/tf_broadcaster.py'...
+[11.269s] Compiling '/home/shdh/enpm663_ws/install/ariac_gazebo/lib/python3.8/site-packages/ariac_gazebo/utilities.py'...
+[11.276s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/ariac_gazebo/environment_startup_node.py
+[11.276s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/ariac_gazebo/robot_controller_switcher_node.py
+[11.277s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/ariac_gazebo/sensor_tf_broadcaster.py
+[11.277s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/ariac_gazebo/object_tf_broadcaster.py
+[11.277s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/lib/ariac_gazebo/part_spawner.py
+[11.277s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ament_index/resource_index/package_run_dependencies/ariac_gazebo
+[11.278s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ament_index/resource_index/parent_prefix_path/ariac_gazebo
+[11.278s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/environment/ament_prefix_path.sh
+[11.278s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/environment/ament_prefix_path.dsv
+[11.279s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/environment/path.sh
+[11.279s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/environment/path.dsv
+[11.279s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/local_setup.bash
+[11.279s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/local_setup.sh
+[11.280s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/local_setup.zsh
+[11.280s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/local_setup.dsv
+[11.280s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/package.dsv
+[11.281s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ament_index/resource_index/packages/ariac_gazebo
+[11.281s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/cmake/ariac_gazeboConfig.cmake
+[11.281s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/cmake/ariac_gazeboConfig-version.cmake
+[11.281s] -- Installing: /home/shdh/enpm663_ws/install/ariac_gazebo/share/ariac_gazebo/package.xml
+[12.428s] Invoked command in '/home/shdh/enpm663_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/shdh/enpm663_ws/install/exercise3:/home/shdh/enpm663_ws/install/exercise2:/home/shdh/enpm663_ws/install/exercise1:/home/shdh/enpm663_ws/install/ariac_gui:/opt/ros/galactic /usr/bin/cmake --install /home/shdh/enpm663_ws/build/ariac_gazebo

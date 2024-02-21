@@ -1,0 +1,37 @@
+[5.927s] Invoking command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise1/prefix_override:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise1 build --build-base /home/shdh/enpm663_ws/build/exercise1/build install --record /home/shdh/enpm663_ws/build/exercise1/install.log --single-version-externally-managed
+[6.449s] running egg_info
+[6.449s] creating ../../../build/exercise1/exercise1.egg-info
+[6.449s] writing ../../../build/exercise1/exercise1.egg-info/PKG-INFO
+[6.449s] writing dependency_links to ../../../build/exercise1/exercise1.egg-info/dependency_links.txt
+[6.449s] writing entry points to ../../../build/exercise1/exercise1.egg-info/entry_points.txt
+[6.450s] writing requirements to ../../../build/exercise1/exercise1.egg-info/requires.txt
+[6.450s] writing top-level names to ../../../build/exercise1/exercise1.egg-info/top_level.txt
+[6.452s] writing manifest file '../../../build/exercise1/exercise1.egg-info/SOURCES.txt'
+[6.521s] reading manifest file '../../../build/exercise1/exercise1.egg-info/SOURCES.txt'
+[6.522s] writing manifest file '../../../build/exercise1/exercise1.egg-info/SOURCES.txt'
+[6.522s] running build
+[6.522s] running build_py
+[6.523s] creating /home/shdh/enpm663_ws/build/exercise1/build
+[6.523s] creating /home/shdh/enpm663_ws/build/exercise1/build/lib
+[6.524s] creating /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1
+[6.524s] copying exercise1/__init__.py -> /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1
+[6.525s] copying exercise1/ex1_interface.py -> /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1
+[6.525s] running install
+[6.526s] running install_lib
+[6.528s] creating /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1
+[6.528s] copying /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1/__init__.py -> /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1
+[6.530s] copying /home/shdh/enpm663_ws/build/exercise1/build/lib/exercise1/ex1_interface.py -> /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1
+[6.530s] byte-compiling /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1/__init__.py to __init__.cpython-38.pyc
+[6.532s] byte-compiling /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1/ex1_interface.py to ex1_interface.cpython-38.pyc
+[6.533s] running install_data
+[6.534s] creating /home/shdh/enpm663_ws/install/exercise1/share/ament_index
+[6.535s] creating /home/shdh/enpm663_ws/install/exercise1/share/ament_index/resource_index
+[6.536s] creating /home/shdh/enpm663_ws/install/exercise1/share/ament_index/resource_index/packages
+[6.536s] copying resource/exercise1 -> /home/shdh/enpm663_ws/install/exercise1/share/ament_index/resource_index/packages
+[6.537s] copying package.xml -> /home/shdh/enpm663_ws/install/exercise1/share/exercise1
+[6.537s] running install_egg_info
+[6.539s] Copying ../../../build/exercise1/exercise1.egg-info to /home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages/exercise1-0.0.0-py3.8.egg-info
+[6.540s] running install_scripts
+[6.570s] Installing ex1_demo script to /home/shdh/enpm663_ws/install/exercise1/lib/exercise1
+[6.571s] writing list of installed files to '/home/shdh/enpm663_ws/build/exercise1/install.log'
+[7.082s] Invoked command in '/home/shdh/enpm663_ws/src/rwa1_sharma/exercise1' returned '0': PYTHONPATH=/home/shdh/enpm663_ws/build/exercise1/prefix_override:/home/shdh/enpm663_ws/install/exercise1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/exercise1 build --build-base /home/shdh/enpm663_ws/build/exercise1/build install --record /home/shdh/enpm663_ws/build/exercise1/install.log --single-version-externally-managed

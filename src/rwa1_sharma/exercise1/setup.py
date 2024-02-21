@@ -13,13 +13,14 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='shdh',
+    maintainer='Dhruv Sharma',
     maintainer_email='dhruv337@gmail.com',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'ex1_demo = exercise1.ex1_demo:main'
         ],
     },
 )
